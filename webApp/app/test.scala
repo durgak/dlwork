@@ -47,13 +47,12 @@ class AnnotatorClient {
                 method.releaseConnection()
                 System.out.println(contents)
                 }
-                catch( Exception e ) {
-                    e.printStackTrace()
-                }
-            }
+                catch{
+                    case e: Exception => printStackTrace()
+                }            }
         }
-        catch( Exception e ){
-            e.printStackTrace()
+        catch{
+            case e: Exception => printStackTrace()
         }
     }
 }
