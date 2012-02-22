@@ -13,10 +13,11 @@ class AnnotatorClient {
     def main(args: Array[String]) {
         try {
             val httpclient = new HttpClient()
-            client.getParams().setParameter(
-            HttpMethodParams.USER_AGENT,"Annotator Client Example - Annotator")  //Set this string for your application 
             
-            PostMethod method = new PostMethod(annotatorUrl)
+            
+            val method = new GetMethod(annotatorUrl)
+
+            client.getParams().setParameter(HttpMethodParams.USER_AGENT,"Annotator Client Example - Annotator")  //Set this string for your application 
             
             // Configure the form parameters
             method.addParameter("longestOnly","true")
