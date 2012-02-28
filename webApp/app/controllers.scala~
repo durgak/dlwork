@@ -24,7 +24,7 @@ object Application extends Controller {
         //Action(index)
         ""
       } else {
-        val annotatorUrl = "http://www.themoviedb.org/"
+        val annotatorUrl = "http://rest.bioontology.org/obs/annotator"
         
         val client = new DefaultHttpClient
         //client.getParams.setParameter(HttpClientParams.USER_AGENT, "Annotator Client Example")
@@ -49,7 +49,7 @@ object Application extends Controller {
         method.addParameter("mappingTypes", "null")
         method.addParameter("textToAnnotate", query)
         method.addParameter("format", "xml")
-        method.addParameter("apikey", "4e24de590e8231cbbb317195bad993d9")
+        method.addParameter("apikey", "3784d3e4-7674-4f7a-b2c0-ae2f54e4d561")
         */
         
         val params = new BasicHttpParams
@@ -70,7 +70,7 @@ object Application extends Controller {
         params.setParameter("mappingTypes", "null")
         params.setParameter("textToAnnotate", query)
         params.setParameter("format", "xml")
-        params.setParameter("apikey", "4e24de590e8231cbbb317195bad993d9")
+        params.setParameter("apikey", "3784d3e4-7674-4f7a-b2c0-ae2f54e4d561")
         
         method.setParams(params)
         
