@@ -1,0 +1,6 @@
+@(query:String)
+
+@main(title = "Query Results") {
+	<h1>Query text: @(query ?: "None")</h1>
+	<a href="@action(controllers.Application.index)">Back to search home</a>
+}
