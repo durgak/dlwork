@@ -14,10 +14,27 @@ import java.io.IOException
 import java.io.InputStreamReader
 import org.apache.commons.io.IOUtils
 import java.io.StringWriter
+import java.io.PrintWriter
 
 
 import org.apache.http.Header
 import org.apache.http.client.methods.HttpGet
+
+import net.liftweb.json.{Printer, Xml, render}
+//import net.liftweb.json.{render => renderJson}
+import net.liftweb.json.JsonAST._
+
+//import net.sf.json.JSON;
+//import net.sf.json.xml.XMLSerializer;
+
+
+
+//import scala.io._
+//import java.io._
+
+//import play.api.libs.json._
+//import Json._
+
 
 object Application extends Controller {
     
@@ -29,7 +46,9 @@ object Application extends Controller {
      
         var line : String = null;
         try {
-          while ((line = reader.readLine()) != null) {
+        
+          while ({line = reader.readLine(); line != null}) {
+          //while ((line = reader.readLine()) != null) {
             sb.append(line + "\n");
           }
         } catch {
@@ -45,7 +64,6 @@ object Application extends Controller {
         sb.toString();
       }
     
-    import views.Application._
     
     def index = {
         html.index("Your Scala application is ready!")
@@ -98,25 +116,52 @@ object Application extends Controller {
        
         
         method.setParams(params)
-
- 
-        //return method.getURI.toString // just returns annotatorUrl 
         
         val response = client.execute(method)
-        //return response.toString 
-        //return client.getResponseBody() 
-        // saying it's forbidden.  why?  
-        // 1.  maybe i set the params incorrectly
-        // 2.  maybe my api key doesn't give me sufficient privileges
-        // 3.  maybe i have the wrong annotatorUrl
+
         
         if (response.getStatusLine.getStatusCode != -1) {
           try {
             val entity = response.getEntity().getContent()
-            val writer = new StringWriter()
-            IOUtils.copy(entity, writer);
-            return writer.toString();
+            //val writer = new StringWriter()
+            //IOUtils.copy(entity, writer);
+            //val out = new PrintWriter("inXML.xml")
+            //out.print(writer)  
+            //out.close
+            val data = xml.XML.loadFile("inXML.xml")
+            //val f = (xml: scala.xml.NodeSeq) => Xml.toJson(xml):JValue
+            //val str = Printer.pretty(render(Xml.toJson(data))) 
+            val str = Printer.pretty(render(net.liftweb.json.Xml.toJson(data)))  
+             
+            var out_file = new java.io.FileOutputStream("inJSON.json")
+            var out_stream = new java.io.PrintStream(out_file)
+             
+            out_stream.print(str)
+            out_stream.close
+            return "HI"
+            //return xmlToJson(entity.toString).toString
+            ////val xmlSerializer = new XMLSerializer(); 
             
+            ////val json = xmlSerializer.read( writer.toString );  
+            //System.out.println( json.toString(2) );
+            //var out_stream = new java.io.PrintStream(out_file)
+            ////return json.toString
+ 
+            //out_stream.print(str)
+            //out_stream.close
+            ////val inXml = writer.toString();
+            //val jsonObject = XML.toJSONObject(inXml)
+            //return jsonObject.toString
+            //val data = xml.XML.loadFile("inXML.xml")
+            //return data.toString
+            //val str = Printer.pretty(render(Xml.toJson(writer )))   
+ 
+            //var out_file = new java.io.FileOutputStream("inJSON.json")
+            //var out_stream = new java.io.PrintStream(out_file)
+ 
+            //out_stream.print(str)
+            //out_stream.close
+            //return writer.toString();
             
             //return convertStreamToString(entity)
             //EntityUtils.consume(entity)
@@ -126,7 +171,9 @@ object Application extends Controller {
             case e: Exception => e.printStackTrace
           }
         }
-        
+       
+ 
+
         
         
         "hi"
