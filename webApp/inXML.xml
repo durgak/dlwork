@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <success>
   <accessedResource>/bioportal/ontologies</accessedResource>
-  <accessDate>2012-03-02 18:10:17.598 PST</accessDate>
+  <accessDate>2012-03-12 01:14:12.524 PDT</accessDate>
   <data>
     <list>
       <ontologyBean>
@@ -637,19 +637,19 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46957</id>
+        <id>47013</id>
         <ontologyId>1007</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>54</internalVersionNumber>
+        <internalVersionNumber>55</internalVersionNumber>
         <userIds>
           <int>2914</int>
         </userIds>
-        <versionNumber>88</versionNumber>
+        <versionNumber>89</versionNumber>
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-02-24 18:02:10.0 PST</dateCreated>
-        <dateReleased>2012-02-24 18:02:10.0 PST</dateReleased>
+        <dateCreated>2012-03-07 18:01:31.0 PST</dateCreated>
+        <dateReleased>2012-03-07 18:01:31.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>Chemical entities of biological interest</displayLabel>
         <description>A structured classification of chemical compounds of biological relevance.</description>
@@ -659,7 +659,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <contactEmail>chebi-help@ebi.ac.uk</contactEmail>
         <homepage>http://www.ebi.ac.uk/chebi</homepage>
         <documentation>http://www.ebi.ac.uk/chebi/init.do?toolBarForward=userManual</documentation>
-        <codingScheme>http://www.bioontology.org/46957/Chemical entities of biological interest|1007/54</codingScheme>
+        <codingScheme>http://www.bioontology.org/47013/Chemical entities of biological interest|1007/55</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -674,7 +674,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <filenames>
           <string>chebi.obo</string>
         </filenames>
-        <filePath>/1007/54</filePath>
+        <filePath>/1007/55</filePath>
         <downloadLocation>http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/chemical/chebi.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -832,7 +832,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>47000</id>
+        <id>47041</id>
         <ontologyId>1070</ontologyId>
         <virtualViewIds>
           <int>2010</int>
@@ -844,15 +844,16 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
           <int>2007</int>
           <int>2013</int>
         </virtualViewIds>
-        <internalVersionNumber>964</internalVersionNumber>
+        <internalVersionNumber>971</internalVersionNumber>
         <userIds>
           <int>38118</int>
         </userIds>
+        <versionNumber>1.1.2706</versionNumber>
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
-        <statusId>1</statusId>
-        <dateCreated>2012-03-02 18:01:57.0 PST</dateCreated>
-        <dateReleased>2012-03-02 18:01:57.0 PST</dateReleased>
+        <statusId>3</statusId>
+        <dateCreated>2012-03-11 18:01:33.0 PDT</dateCreated>
+        <dateReleased>2012-03-11 18:01:33.0 PDT</dateReleased>
         <oboFoundryId>biological_process</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Gene Ontology</displayLabel>
@@ -863,6 +864,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <contactEmail>go@geneontology.org</contactEmail>
         <homepage>http://www.geneontology.org</homepage>
         <documentation>http://www.geneontology.org/GO.doc.shtml</documentation>
+        <codingScheme>http://www.bioontology.org/47041/Gene Ontology|1070/971</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>1</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -880,7 +882,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <filenames>
           <string>gene_ontology_edit.obo</string>
         </filenames>
-        <filePath>/1070/964</filePath>
+        <filePath>/1070/971</filePath>
         <downloadLocation>http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/genomic-proteomic/gene_ontology_edit.obo</downloadLocation>
         <hasViews>
           <int>39994</int>
@@ -1856,18 +1858,19 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>47001</id>
+        <id>47031</id>
         <ontologyId>1125</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>235</internalVersionNumber>
+        <internalVersionNumber>238</internalVersionNumber>
         <userIds>
           <int>38635</int>
         </userIds>
+        <versionNumber>unknown</versionNumber>
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
-        <statusId>1</statusId>
-        <dateCreated>2012-03-02 18:03:59.0 PST</dateCreated>
-        <dateReleased>2012-03-02 18:03:59.0 PST</dateReleased>
+        <statusId>3</statusId>
+        <dateCreated>2012-03-09 18:02:59.0 PST</dateCreated>
+        <dateReleased>2012-03-09 18:02:59.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>Human Phenotype Ontology</displayLabel>
         <description>The Human Phenotype Ontology is being developed to provide a structured and controlled vocabulary for the phenotypic features encountered in human hereditary and other disease. Our goal is to provide resource for the computational analysis of the human phenome, with a current focus on monogenic diseases listed in the Online Mendelian Inheritance in Man (OMIM) database, for which annotations are also provided.</description>
@@ -1877,6 +1880,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <contactEmail>peter.robinson@charite.de</contactEmail>
         <homepage>http://www.human-phenotype-ontology.org</homepage>
         <documentation>http://www.human-phenotype-ontology.org/index.php/hpo_docu.html</documentation>
+        <codingScheme>http://www.bioontology.org/47031/Human Phenotype Ontology|1125/238</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -1890,7 +1894,7 @@ Jan 29, 2012 by Stefan Schulz</versionNumber>
         <filenames>
           <string>human-phenotype-ontology.obo</string>
         </filenames>
-        <filePath>/1125/235</filePath>
+        <filePath>/1125/238</filePath>
         <downloadLocation>http://compbio.charite.de/svn/hpo/trunk/src/ontology/human-phenotype-ontology.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -2080,11 +2084,12 @@ SBO is a project of the BioModels.net effort and is developed through community 
         <userIds>
           <int>38648</int>
         </userIds>
+        <versionNumber>unknown</versionNumber>
         <versionStatus>beta</versionStatus>
         <isRemote>0</isRemote>
-        <statusId>1</statusId>
+        <statusId>3</statusId>
         <dateCreated>2012-03-02 18:04:10.0 PST</dateCreated>
-        <dateReleased>2012-03-02 18:04:10.0 PST</dateReleased>
+        <dateReleased>2012-03-02 00:00:00.0 PST</dateReleased>
         <oboFoundryId>plant_trait</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Plant Trait Ontology</displayLabel>
@@ -2095,12 +2100,15 @@ SBO is a project of the BioModels.net effort and is developed through community 
         <contactEmail>po-discuss@plantontology.org</contactEmail>
         <homepage>http://www.gramene.org/plant_ontology/</homepage>
         <documentation>http://www.gramene.org/plant_ontology/index.html#to</documentation>
+        <publication></publication>
+        <codingScheme>http://www.bioontology.org/47002/Plant Trait Ontology|1037/287</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
         <userAcl/>
         <isView>false</isView>
         <categoryIds>
+          <int>5063</int>
           <int>2807</int>
         </categoryIds>
         <groupIds/>
@@ -3910,10 +3918,10 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46979</id>
+        <id>47016</id>
         <ontologyId>1067</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>154</internalVersionNumber>
+        <internalVersionNumber>155</internalVersionNumber>
         <userIds>
           <int>13424</int>
         </userIds>
@@ -3921,8 +3929,8 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <versionStatus>beta</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-02-29 18:05:29.0 PST</dateCreated>
-        <dateReleased>2012-02-29 18:05:29.0 PST</dateReleased>
+        <dateCreated>2012-03-07 18:04:57.0 PST</dateCreated>
+        <dateReleased>2012-03-07 18:04:57.0 PST</dateReleased>
         <oboFoundryId>worm_phenotype</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>C. elegans phenotype</displayLabel>
@@ -3932,7 +3940,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <contactName>Gary Schindelman</contactName>
         <contactEmail>garys@caltech.edu</contactEmail>
         <homepage>http://www.wormbase.org/</homepage>
-        <codingScheme>http://www.bioontology.org/46979/C. elegans phenotype|1067/154</codingScheme>
+        <codingScheme>http://www.bioontology.org/47016/C. elegans phenotype|1067/155</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -3945,7 +3953,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <filenames>
           <string>worm_phenotype.obo</string>
         </filenames>
-        <filePath>/1067/154</filePath>
+        <filePath>/1067/155</filePath>
         <downloadLocation>http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/phenotype/worm_phenotype.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -4216,10 +4224,10 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46506</id>
+        <id>47017</id>
         <ontologyId>1112</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>32</internalVersionNumber>
+        <internalVersionNumber>33</internalVersionNumber>
         <userIds>
           <int>13416</int>
         </userIds>
@@ -4227,8 +4235,8 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2011-11-18 18:03:08.0 PST</dateCreated>
-        <dateReleased>2011-11-18 18:03:08.0 PST</dateReleased>
+        <dateCreated>2012-03-07 18:05:13.0 PST</dateCreated>
+        <dateReleased>2012-03-07 18:05:13.0 PST</dateReleased>
         <oboFoundryId>unit</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Units of measurement</displayLabel>
@@ -4238,7 +4246,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <contactName>Unit Administrators</contactName>
         <contactEmail>obo-unit@lists.sourceforge.net</contactEmail>
         <homepage>http://code.google.com/p/unit-ontology/</homepage>
-        <codingScheme>http://www.bioontology.org/46506/Units of measurement|1112/32</codingScheme>
+        <codingScheme>http://www.bioontology.org/47017/Units of measurement|1112/33</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -4249,7 +4257,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <filenames>
           <string>unit.obo</string>
         </filenames>
-        <filePath>/1112/32</filePath>
+        <filePath>/1112/33</filePath>
         <downloadLocation>http://unit-ontology.googlecode.com/svn/trunk/unit.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -4569,19 +4577,19 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46990</id>
+        <id>47042</id>
         <ontologyId>1172</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>140</internalVersionNumber>
+        <internalVersionNumber>145</internalVersionNumber>
         <userIds>
           <int>38418</int>
         </userIds>
-        <versionNumber>Vision Release; 1.0.571</versionNumber>
+        <versionNumber>Vision Release; 1.0.580</versionNumber>
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-03-01 18:05:37.0 PST</dateCreated>
-        <dateReleased>2012-03-01 18:05:37.0 PST</dateReleased>
+        <dateCreated>2012-03-11 18:05:11.0 PDT</dateCreated>
+        <dateReleased>2012-03-11 18:05:11.0 PDT</dateReleased>
         <oboFoundryId>VO</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Vaccine Ontology</displayLabel>
@@ -4603,7 +4611,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <filenames>
           <string>VO.owl</string>
         </filenames>
-        <filePath>/1172/140</filePath>
+        <filePath>/1172/145</filePath>
         <downloadLocation>https://vaccineontology.svn.sourceforge.net/svnroot/vaccineontology/trunk/src/ontology/VO.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -5683,18 +5691,19 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>47003</id>
+        <id>47043</id>
         <ontologyId>1077</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>962</internalVersionNumber>
+        <internalVersionNumber>968</internalVersionNumber>
         <userIds>
           <int>38123</int>
         </userIds>
+        <versionNumber>unknown</versionNumber>
         <versionStatus>beta</versionStatus>
         <isRemote>1</isRemote>
-        <statusId>1</statusId>
-        <dateCreated>2012-03-02 18:06:41.0 PST</dateCreated>
-        <dateReleased>2012-03-02 18:06:41.0 PST</dateReleased>
+        <statusId>3</statusId>
+        <dateCreated>2012-03-11 18:05:54.0 PDT</dateCreated>
+        <dateReleased>2012-03-11 18:05:54.0 PDT</dateReleased>
         <oboFoundryId>mosquito_insecticide_resistance</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Mosquito insecticide resistance</displayLabel>
@@ -5704,6 +5713,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <contactName>C. Louis</contactName>
         <contactEmail>louis@imbb.forth.gr</contactEmail>
         <homepage>http://www.anobase.org</homepage>
+        <codingScheme>http://www.bioontology.org/47043/Mosquito insecticide resistance|1077/968</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -5716,7 +5726,7 @@ The PEO (v 1.0) includes Proteome, Microarray, Gene Knockout, and Strain Creatio
         <filenames>
           <string>mosquito_insecticide_resistance.obo</string>
         </filenames>
-        <filePath>/1077/962</filePath>
+        <filePath>/1077/968</filePath>
         <downloadLocation>http://obo.cvs.sourceforge.net/*checkout*/obo/obo/ontology/phenotype/mosquito_insecticide_resistance.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -7486,18 +7496,18 @@ Consolidated influenza sequence and surveillance terms from resources such as th
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46658</id>
+        <id>47020</id>
         <ontologyId>1461</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>10</internalVersionNumber>
+        <internalVersionNumber>11</internalVersionNumber>
         <userIds>
           <int>38547</int>
         </userIds>
         <versionNumber>1.0.2</versionNumber>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2011-12-23 18:05:32.0 PST</dateCreated>
-        <dateReleased>2011-12-23 18:05:32.0 PST</dateReleased>
+        <dateCreated>2012-03-07 18:07:30.0 PST</dateCreated>
+        <dateReleased>2012-03-07 18:07:30.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>Translational Medicine Ontology</displayLabel>
         <description>This project focuses on the development of a high level patient-centric ontology for the pharmaceutical industry. The ontology should enable silos in discovery research, hypothesis management, experimental studies, compounds, formulation, drug development, market size, competitive data, population data, etc. to be brought together. This would enable scientists to answer new questions, and to answer existing scientific questions more quickly. This will help pharmaceutical companies to model patient-centric information, which is essential for the tailoring of drugs, and for early detection of compounds that may have sub-optimal safety profiles. The ontology should link to existing publicly available domain ontologies.</description>
@@ -7519,7 +7529,7 @@ Consolidated influenza sequence and surveillance terms from resources such as th
         <filenames>
           <string>tmo.owl</string>
         </filenames>
-        <filePath>/1461/10</filePath>
+        <filePath>/1461/11</filePath>
         <downloadLocation>http://translationalmedicineontology.googlecode.com/svn/trunk/ontology/tmo.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -8763,19 +8773,19 @@ lymphocyte populations have been included.</description>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46449</id>
+        <id>47021</id>
         <ontologyId>1532</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>15</internalVersionNumber>
+        <internalVersionNumber>16</internalVersionNumber>
         <userIds>
           <int>38353</int>
         </userIds>
-        <versionNumber>0.8.17</versionNumber>
+        <versionNumber>0.8.18</versionNumber>
         <versionStatus>beta</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2011-10-26 18:04:50.0 PDT</dateCreated>
-        <dateReleased>2011-10-26 18:04:50.0 PDT</dateReleased>
+        <dateCreated>2012-03-07 18:07:36.0 PST</dateCreated>
+        <dateReleased>2012-03-07 18:07:36.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>SemanticScience Integrated Ontology</displayLabel>
         <description>The semanticscience integrated ontology (SIO) provides a simple, integrated upper level ontology (types, relations) for consistent knowledge representation across physical, processual and informational entities. It provides vocabulary for the Bio2RDF (http://bio2rdf.org) and SADI (http://sadiframework.org) projects.</description>
@@ -8815,7 +8825,7 @@ lymphocyte populations have been included.</description>
         <filenames>
           <string>sio.owl</string>
         </filenames>
-        <filePath>/1532/15</filePath>
+        <filePath>/1532/16</filePath>
         <downloadLocation>http://semanticscience.googlecode.com/svn/trunk/ontology/sio.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -9351,10 +9361,10 @@ lymphocyte populations have been included.</description>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46799</id>
+        <id>47034</id>
         <ontologyId>1555</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>14</internalVersionNumber>
+        <internalVersionNumber>15</internalVersionNumber>
         <userIds>
           <int>38324</int>
         </userIds>
@@ -9362,8 +9372,8 @@ lymphocyte populations have been included.</description>
         <versionStatus>beta</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-01-26 18:09:03.0 PST</dateCreated>
-        <dateReleased>2012-01-26 18:09:03.0 PST</dateReleased>
+        <dateCreated>2012-03-09 18:08:13.0 PST</dateCreated>
+        <dateReleased>2012-03-09 18:08:13.0 PST</dateReleased>
         <oboFoundryId>vertebrate_anatomy</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Vertebrate Anatomy Ontology</displayLabel>
@@ -9374,7 +9384,7 @@ lymphocyte populations have been included.</description>
         <contactEmail>wasila.dahdul@usd.edu</contactEmail>
         <homepage>https://www.nescent.org/phenoscape/Main_Page</homepage>
         <documentation>https://www.phenoscape.org/wiki/Skeletal_Anatomy_Jamboree</documentation>
-        <codingScheme>http://www.bioontology.org/46799/Vertebrate Anatomy Ontology|1555/14</codingScheme>
+        <codingScheme>http://www.bioontology.org/47034/Vertebrate Anatomy Ontology|1555/15</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -9385,7 +9395,7 @@ lymphocyte populations have been included.</description>
         <filenames>
           <string>vertebrate_anatomy.obo</string>
         </filenames>
-        <filePath>/1555/14</filePath>
+        <filePath>/1555/15</filePath>
         <downloadLocation>https://phenoscape.svn.sourceforge.net/svnroot/phenoscape/trunk/vocab/skeletal/obo/vertebrate_anatomy.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -9893,10 +9903,10 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46507</id>
+        <id>47035</id>
         <ontologyId>1580</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>11</internalVersionNumber>
+        <internalVersionNumber>13</internalVersionNumber>
         <userIds>
           <int>29312</int>
         </userIds>
@@ -9904,8 +9914,8 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <versionStatus>alpha</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2011-11-18 18:04:56.0 PST</dateCreated>
-        <dateReleased>2011-11-18 18:04:56.0 PST</dateReleased>
+        <dateCreated>2012-03-09 18:08:24.0 PST</dateCreated>
+        <dateReleased>2012-03-09 18:08:24.0 PST</dateReleased>
         <oboFoundryId>AERO</oboFoundryId>
         <isManual>0</isManual>
         <displayLabel>Adverse Event Reporting ontology</displayLabel>
@@ -9933,7 +9943,7 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <filenames>
           <string>aero.owl</string>
         </filenames>
-        <filePath>/1580/11</filePath>
+        <filePath>/1580/13</filePath>
         <downloadLocation>http://purl.obolibrary.org/obo/aero.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -10018,10 +10028,10 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46982</id>
+        <id>47036</id>
         <ontologyId>1583</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>10</internalVersionNumber>
+        <internalVersionNumber>11</internalVersionNumber>
         <userIds>
           <int>38886</int>
         </userIds>
@@ -10029,8 +10039,8 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-02-29 18:08:21.0 PST</dateCreated>
-        <dateReleased>2012-02-29 18:08:21.0 PST</dateReleased>
+        <dateCreated>2012-03-09 18:08:30.0 PST</dateCreated>
+        <dateReleased>2012-03-09 18:08:30.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>Clinical Measurement Ontology</displayLabel>
         <description>The Clinical Measurement Ontology is designed to be used to standardize morphological and physiological measurement records generated from clinical and model organism research and health programs</description>
@@ -10040,7 +10050,7 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <contactEmail>shimoyama@mcw.edu</contactEmail>
         <homepage>http://sourceforge.net/projects/phenoonto/</homepage>
         <documentation>http://sourceforge.net/projects/phenoonto/</documentation>
-        <codingScheme>http://www.bioontology.org/46982/Clinical Measurement Ontology|1583/10</codingScheme>
+        <codingScheme>http://www.bioontology.org/47036/Clinical Measurement Ontology|1583/11</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -10051,7 +10061,7 @@ This mapping represents homology-strict relationships, in the sense of HOM:00000
         <filenames>
           <string>clinical_measurement.obo</string>
         </filenames>
-        <filePath>/1583/10</filePath>
+        <filePath>/1583/11</filePath>
         <downloadLocation>http://rgd.mcw.edu/pub/ontology/clinical_measurement/clinical_measurement.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -10568,9 +10578,16 @@ The ontology was first developed under the OntoDM (Ontology of Data Mining is av
         <format>OWL</format>
         <contactName>Jules Jacobsen</contactName>
         <contactEmail>jacobsen@ebi.ac.uk</contactEmail>
+        <homepage></homepage>
+        <documentation></documentation>
+        <publication></publication>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
+        <synonymSlot></synonymSlot>
+        <preferredNameSlot></preferredNameSlot>
+        <documentationSlot></documentationSlot>
+        <authorSlot></authorSlot>
         <userAcl/>
         <isView>false</isView>
         <categoryIds>
@@ -11745,13 +11762,24 @@ OMIM: 224050, 610185, 613227</description>
         <format>OWL</format>
         <contactName>Ketty Mobed</contactName>
         <contactEmail>ketty.mobed@ucsf.edu</contactEmail>
+        <homepage></homepage>
+        <documentation></documentation>
+        <publication></publication>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
+        <synonymSlot></synonymSlot>
+        <preferredNameSlot></preferredNameSlot>
+        <documentationSlot></documentationSlot>
+        <authorSlot></authorSlot>
         <userAcl>
           <userEntry>
             <userId>38522</userId>
             <isOwner>true</isOwner>
+          </userEntry>
+          <userEntry>
+            <userId>39610</userId>
+            <isOwner>false</isOwner>
           </userEntry>
         </userAcl>
         <viewingRestriction>private</viewingRestriction>
@@ -12491,10 +12519,10 @@ specifically for Randomized Controlled Trials in order to facilitate the product
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46994</id>
+        <id>47037</id>
         <ontologyId>1689</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>14</internalVersionNumber>
+        <internalVersionNumber>16</internalVersionNumber>
         <userIds>
           <int>38198</int>
         </userIds>
@@ -12502,8 +12530,8 @@ specifically for Randomized Controlled Trials in order to facilitate the product
         <versionStatus>production</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-03-01 18:08:31.0 PST</dateCreated>
-        <dateReleased>2012-03-01 18:08:31.0 PST</dateReleased>
+        <dateCreated>2012-03-09 18:08:57.0 PST</dateCreated>
+        <dateReleased>2012-03-09 18:08:57.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>Fission Yeast Phenotype Ontology</displayLabel>
         <description>FYPO is a formal ontology of phenotypes observed in fission yeast. FYPO is being developed to support the comprehensive and detailed representation of phenotypes in PomBase, the new online fission yeast resource (www.pombaes.org). Its scope is similar to that of the Ascomycete Phenotype Ontology (APO), but FYPO includes more detailed pre-composed terms as well as computable definitions.</description>
@@ -12512,7 +12540,7 @@ specifically for Randomized Controlled Trials in order to facilitate the product
         <contactName>Midoria Harris</contactName>
         <contactEmail>mah79@cam.ac.uk</contactEmail>
         <homepage>http://sourceforge.net/apps/trac/pombase/wiki/FissionYeastPhenotypeOntology</homepage>
-        <codingScheme>http://www.bioontology.org/46994/Fission Yeast Phenotype Ontology|1689/14</codingScheme>
+        <codingScheme>http://www.bioontology.org/47037/Fission Yeast Phenotype Ontology|1689/16</codingScheme>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
@@ -12525,7 +12553,7 @@ specifically for Randomized Controlled Trials in order to facilitate the product
         <filenames>
           <string>fypo_edit.obo</string>
         </filenames>
-        <filePath>/1689/14</filePath>
+        <filePath>/1689/16</filePath>
         <downloadLocation>http://pombase.svn.sourceforge.net/viewvc/pombase/phenotype_ontology/fypo_edit.obo</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -13416,22 +13444,22 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46995</id>
+        <id>47038</id>
         <ontologyId>3008</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>3</internalVersionNumber>
+        <internalVersionNumber>7</internalVersionNumber>
         <userIds>
           <int>38743</int>
         </userIds>
         <versionNumber>0.9</versionNumber>
-        <versionStatus>beta</versionStatus>
+        <versionStatus>alpha</versionStatus>
         <isRemote>1</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-03-01 19:13:52.0 PST</dateCreated>
-        <dateReleased>2012-03-01 00:00:00.0 PST</dateReleased>
+        <dateCreated>2012-03-10 10:07:07.0 PST</dateCreated>
+        <dateReleased>2012-03-10 00:00:00.0 PST</dateReleased>
         <isManual>0</isManual>
         <displayLabel>CareLex</displayLabel>
-        <description>Vocabulary for use with life science and healthcare content repositories and archives.  Initial version 0.9 contains core metadata for use with clinical trial electronic Trial Master Files or eTMF.  Contains content classification categories, data properties, annotation properties. </description>
+        <description>Content model for use with electronic content repositories for life science and healthcare.   Initial version 0.9 contains content model for use with clinical trial electronic Trial Master Files or eTMF&apos;s.  Contains content classification categories and metadata (data properties).  Data  properties are shown as a class for convenience, but should be assigned to each Content Type class as indicated in the class (Category) annotations. </description>
         <abbreviation>CareLex</abbreviation>
         <format>OWL</format>
         <contactName>Zack Schmidt</contactName>
@@ -13439,9 +13467,14 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <homepage>http://www.thehaig.org</homepage>
         <documentation>http://thehaig.org/publications/</documentation>
         <publication>http://thehaig.org/publications/</publication>
+        <targetTerminologies></targetTerminologies>
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
+        <synonymSlot></synonymSlot>
+        <preferredNameSlot></preferredNameSlot>
+        <documentationSlot></documentationSlot>
+        <authorSlot></authorSlot>
         <userAcl/>
         <isView>false</isView>
         <categoryIds/>
@@ -13449,7 +13482,7 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <filenames>
           <string>carelex.owl</string>
         </filenames>
-        <filePath>/3008/3</filePath>
+        <filePath>/3008/7</filePath>
         <downloadLocation>http://www.thehaig.org/2012/carelex.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
@@ -13568,10 +13601,10 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46998</id>
+        <id>47008</id>
         <ontologyId>3014</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>2</internalVersionNumber>
+        <internalVersionNumber>3</internalVersionNumber>
         <userIds>
           <int>39599</int>
         </userIds>
@@ -13579,8 +13612,8 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <versionStatus>alpha</versionStatus>
         <isRemote>0</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-03-02 08:44:23.0 PST</dateCreated>
-        <dateReleased>2012-03-02 00:00:00.0 PST</dateReleased>
+        <dateCreated>2012-03-04 16:46:03.0 PST</dateCreated>
+        <dateReleased>2012-03-05 00:00:00.0 PST</dateReleased>
         <isManual>1</isManual>
         <displayLabel>Physical Medicine and Rehabilitation</displayLabel>
         <description>Knowledge representation related to computer-based decision support in rehabilitation; concepts and relationships in the rehabilitation domain, integrating clinical practice, the ICD (specifically its 11th revision), the clinical investigator record ontology, the ICF and SNOMED CT.</description>
@@ -13595,10 +13628,10 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
-        <synonymSlot>PMR</synonymSlot>
-        <preferredNameSlot>Physical Medicine and Rehabilitation</preferredNameSlot>
+        <synonymSlot></synonymSlot>
+        <preferredNameSlot></preferredNameSlot>
         <documentationSlot></documentationSlot>
-        <authorSlot>Laia Subirats and Luigi Ceccaroni</authorSlot>
+        <authorSlot></authorSlot>
         <userAcl>
           <userEntry>
             <userId>39599</userId>
@@ -13612,33 +13645,33 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         </categoryIds>
         <groupIds/>
         <filenames>
-          <string>Physical_Medicine_and_Rehabilitation.owl</string>
+          <string>PMR.rdf-xml.owl</string>
         </filenames>
-        <filePath>/3014/2</filePath>
+        <filePath>/3014/3</filePath>
         <hasViews/>
         <viewOnOntologyVersionId/>
       </ontologyBean>
       <ontologyBean>
-        <id>46999</id>
+        <id>47011</id>
         <ontologyId>3015</ontologyId>
         <virtualViewIds/>
-        <internalVersionNumber>1</internalVersionNumber>
+        <internalVersionNumber>3</internalVersionNumber>
         <userIds>
           <int>39599</int>
         </userIds>
-        <versionNumber>1.2</versionNumber>
+        <versionNumber>1.5</versionNumber>
         <versionStatus>alpha</versionStatus>
         <isRemote>0</isRemote>
         <statusId>3</statusId>
-        <dateCreated>2012-03-02 12:30:11.0 PST</dateCreated>
-        <dateReleased>2012-03-02 00:00:00.0 PST</dateReleased>
+        <dateCreated>2012-03-06 07:01:32.0 PST</dateCreated>
+        <dateReleased>2012-03-06 00:00:00.0 PST</dateReleased>
         <isManual>1</isManual>
-        <displayLabel>Physical Medicine and RehabilitationPhysical Medicine and RehabilitationPhysical Medicine and RehabilitationPhysical Medicine and Rehabilitation</displayLabel>
+        <displayLabel>Physical Medicine and Rehabilitation</displayLabel>
         <description>Knowledge representation related to computer-based decision support in rehabilitation; concepts and relationships in the rehabilitation domain, integrating clinical practice, the ICD (specifically its 11th revision), the clinical investigator record ontology, the ICF and SNOMED CT.</description>
         <abbreviation>PMR</abbreviation>
         <format>OWL</format>
-        <contactName>Laia Subirats</contactName>
-        <contactEmail>lsubirats@bdigital.org</contactEmail>
+        <contactName>X</contactName>
+        <contactEmail>x@x.org</contactEmail>
         <homepage></homepage>
         <documentation></documentation>
         <publication></publication>
@@ -13646,18 +13679,66 @@ If you have any comments, questions or suggestions, please contact Yann Le Franc
         <isFlat>0</isFlat>
         <isFoundry>0</isFoundry>
         <isMetadataOnly>0</isMetadataOnly>
-        <synonymSlot>PMR</synonymSlot>
-        <preferredNameSlot>PMR</preferredNameSlot>
+        <synonymSlot></synonymSlot>
+        <preferredNameSlot></preferredNameSlot>
         <documentationSlot></documentationSlot>
+        <authorSlot>Laia Subirats and Luigi Ceccaroni</authorSlot>
+        <userAcl/>
+        <isView>false</isView>
+        <categoryIds>
+          <int>5058</int>
+        </categoryIds>
+        <groupIds/>
+        <filenames>
+          <string>PMR.rdf-xml.owl</string>
+        </filenames>
+        <filePath>/3015/3</filePath>
+        <hasViews/>
+        <viewOnOntologyVersionId/>
+      </ontologyBean>
+      <ontologyBean>
+        <id>47012</id>
+        <ontologyId>3016</ontologyId>
+        <virtualViewIds/>
+        <internalVersionNumber>1</internalVersionNumber>
+        <userIds>
+          <int>39605</int>
+        </userIds>
+        <versionNumber>2012-03-02</versionNumber>
+        <versionStatus>production</versionStatus>
+        <isRemote>1</isRemote>
+        <statusId>3</statusId>
+        <dateCreated>2012-03-06 12:31:29.0 PST</dateCreated>
+        <dateReleased>2012-03-02 00:00:00.0 PST</dateReleased>
+        <isManual>0</isManual>
+        <displayLabel>eagle-i research resource ontology</displayLabel>
+        <description>This ontology models research resources such instruments. protocols, reagents, animal models and biospecimens. It has been developed in the context of the eagle-i project (http://eagle-i.net/).</description>
+        <abbreviation>ERO</abbreviation>
+        <format>OWL</format>
+        <contactName>Carlo Torniai</contactName>
+        <contactEmail>carlotorniai@gmail.com</contactEmail>
+        <homepage>http://code.google.com/p/eagle-i/</homepage>
+        <documentation>http://code.google.com/p/eagle-i/wiki/Documentation</documentation>
+        <publication>http://code.google.com/p/eagle-i/wiki/Publications</publication>
+        <targetTerminologies></targetTerminologies>
+        <isFlat>0</isFlat>
+        <isFoundry>0</isFoundry>
+        <isMetadataOnly>0</isMetadataOnly>
+        <synonymSlot>http://purl.obolibrary.org/obo/IAO_0000118</synonymSlot>
+        <preferredNameSlot>http://www.w3.org/2000/01/rdf-schema#label</preferredNameSlot>
+        <documentationSlot>http://purl.obolibrary.org/obo/IAO_0000115</documentationSlot>
         <authorSlot></authorSlot>
         <userAcl/>
         <isView>false</isView>
-        <categoryIds/>
+        <categoryIds>
+          <int>5059</int>
+        </categoryIds>
         <groupIds/>
         <filenames>
-          <string>Physical_Medicine_and_Rehabilitation.owl</string>
+          <string>ero.owl</string>
         </filenames>
-        <filePath>/3015/1</filePath>
+        <filePath>/3016/1</filePath>
+        <downloadLocation>http://purl.obolibrary.org/obo/ero.owl</downloadLocation>
         <hasViews/>
         <viewOnOntologyVersionId/>
       </ontologyBean>

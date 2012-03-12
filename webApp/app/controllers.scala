@@ -123,11 +123,11 @@ object Application extends Controller {
         if (response.getStatusLine.getStatusCode != -1) {
           try {
             val entity = response.getEntity().getContent()
-            //val writer = new StringWriter()
-            //IOUtils.copy(entity, writer);
-            //val out = new PrintWriter("inXML.xml")
-            //out.print(writer)  
-            //out.close
+            val writer = new StringWriter()
+            IOUtils.copy(entity, writer);
+            val out = new PrintWriter("inXML.xml")
+            out.print(writer)  
+            out.close
             val data = xml.XML.loadFile("inXML.xml")
             //val f = (xml: scala.xml.NodeSeq) => Xml.toJson(xml):JValue
             //val str = Printer.pretty(render(Xml.toJson(data))) 
