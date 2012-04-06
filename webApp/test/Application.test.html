@@ -4,4 +4,17 @@
     // Open the home page, and check that no error occured
     open('/')
     assertNotTitle('Application error')
+    
+    // Type the empty string query and assert error message
+    type('css=input[type=text]', '')
+    clickAndWait('css=input[type=submit]')
+    verifyTextPresent('Oops, please enter a query!')
+    
+    // Type the query and submit
+    open('/')
+    type('css=input[type=text]', 'breast cancer')
+    clickAndWait('css=input[type=submit]')
+    
 #{/selenium}
+
+

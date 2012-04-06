@@ -208,5 +208,6 @@ mail.smtp=mock
 %test.jpa.ddl=create
 %test.mail.smtp=mock
 
-
+# Import the cobertura module in test mode
+%test.module.cobertura=${play.path}/modules/cobertura
 
