@@ -38,6 +38,17 @@ object Application extends Controller {
         html.index("Your Scala application is ready!")
     }
     
+    def xmlToJson(inFile: String) = {
+      val data = xml.XML.loadFile(inFile)
+      val str = Printer.pretty(render(net.liftweb.json.Xml.toJson(data)))  
+      val outFile = inFile.replace(".xml", ".json")       
+      var out_file = new java.io.FileOutputStream(outFile)
+      var out_stream = new java.io.PrintStream(out_file)
+             
+      out_stream.print(str)
+      out_stream.close
+    }
+    
     def queryNCBO: String = {
       val query = params.get("query")
       if(query == "") {
@@ -82,25 +93,19 @@ object Application extends Controller {
             val entity = response.getEntity().getContent()
             val writer = new StringWriter()
             IOUtils.copy(entity, writer);
-            val out = new PrintWriter("inXML.xml")
+            val infile = "result.xml"
+            val out = new PrintWriter(infile)
             out.print(writer)  
             out.close
-            val data = xml.XML.loadFile("inXML.xml")
-            val str = Printer.pretty(render(net.liftweb.json.Xml.toJson(data)))  
-             
-            var out_file = new java.io.FileOutputStream("inJSON.json")
-            var out_stream = new java.io.PrintStream(out_file)
-             
-            out_stream.print(str)
-            out_stream.close
+            
+            xmlToJson(infile)
+            
             return "completed"
           } catch {
             case e: Exception => e.printStackTrace
           }
         }
         "not completed"
-      }
-      
-      
+      }   
     }
 }
