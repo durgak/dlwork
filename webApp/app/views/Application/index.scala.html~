@@ -1,7 +1,7 @@
 @(title:String)
 
 @main(title = "Home") {
-    <form action="@action(controllers.Application.reconcile)" method="GET">
+    <form action="@action(controllers.Application.queryNCBO)" method="GET">
         <input type="text" name="query" /> 
         <input type="submit" value="Search NCBO" />
     </form>

@@ -1,17 +1,17 @@
 {
   "success":{
     "accessedResource":"/obs/annotator",
-    "accessDate":"2012-04-10 21:02:48.555 PDT",
+    "accessDate":"2012-04-30 13:21:11.786 PDT",
     "data":{
       "annotatorResultBean":{
-        "resultID":"OBA_RESULT_4f76",
+        "resultID":"OBA_RESULT_8917",
         "statistics":{
           "statisticsBean":[{
-            "contextName":"MGREP",
-            "nbAnnotation":"16"
-          },{
             "contextName":"CLOSURE",
             "nbAnnotation":"0"
+          },{
+            "contextName":"MGREP",
+            "nbAnnotation":"16"
           },{
             "contextName":"MAPPING",
             "nbAnnotation":"0"
@@ -49,7 +49,7 @@
               "fullId":"http://purl.bioontology.org/ontology/MEDLINEPLUS/T3",
               "preferredName":"Breast Cancer",
               "synonyms":{
-                "string":["Breast carcinoma","Paget's Disease of Breast"]
+                "string":["Paget's Disease of Breast","Breast carcinoma"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -78,7 +78,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/MEDLINEPLUS/T3",
                   "preferredName":"Breast Cancer",
                   "synonyms":{
-                    "string":["Breast carcinoma","Paget's Disease of Breast"]
+                    "string":["Paget's Disease of Breast","Breast carcinoma"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -104,7 +104,7 @@
               "fullId":"http://purl.org/obo/owl/DOID#DOID_1612",
               "preferredName":"breast cancer",
               "synonyms":{
-                "string":["primary breast cancer","mammary cancer","malignant neoplasm of breast","malignant tumor of the breast","Ca breast - NOS","mammary tumor","breast tumor","breast cancer"]
+                "string":["primary breast cancer","malignant neoplasm of breast","malignant tumor of the breast","mammary cancer","mammary tumor","breast tumor","Ca breast - NOS","breast cancer"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -133,7 +133,7 @@
                   "fullId":"http://purl.org/obo/owl/DOID#DOID_1612",
                   "preferredName":"breast cancer",
                   "synonyms":{
-                    "string":["primary breast cancer","mammary cancer","malignant neoplasm of breast","malignant tumor of the breast","Ca breast - NOS","mammary tumor","breast tumor","breast cancer"]
+                    "string":["primary breast cancer","malignant neoplasm of breast","malignant tumor of the breast","mammary cancer","mammary tumor","breast tumor","Ca breast - NOS","breast cancer"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -159,7 +159,7 @@
               "fullId":"http://purl.bioontology.org/ontology/OMIM/114480",
               "preferredName":"BREAST CANCER",
               "synonyms":{
-                "string":["BREAST CANCER, FAMILIAL","BREAST CANCER, FAMILIAL MALE"]
+                "string":["BREAST CANCER, FAMILIAL MALE","BREAST CANCER, FAMILIAL"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -188,7 +188,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/OMIM/114480",
                   "preferredName":"BREAST CANCER",
                   "synonyms":{
-                    "string":["BREAST CANCER, FAMILIAL","BREAST CANCER, FAMILIAL MALE"]
+                    "string":["BREAST CANCER, FAMILIAL MALE","BREAST CANCER, FAMILIAL"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -481,7 +481,7 @@
               "fullId":"http://purl.bioontology.org/ontology/CSP/2016-0671",
               "preferredName":"breast neoplasm",
               "synonyms":{
-                "string":["mammary tumor","ductal carcinoma in situ","breast cancer","DCIS"]
+                "string":["breast cancer","ductal carcinoma in situ","mammary tumor","DCIS"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -510,7 +510,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/CSP/2016-0671",
                   "preferredName":"breast neoplasm",
                   "synonyms":{
-                    "string":["mammary tumor","ductal carcinoma in situ","breast cancer","DCIS"]
+                    "string":["breast cancer","ductal carcinoma in situ","mammary tumor","DCIS"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -536,7 +536,7 @@
               "fullId":"http://purl.bioontology.org/ontology/NDFRT/C1402",
               "preferredName":"Breast Neoplasms",
               "synonyms":{
-                "string":["Breast Neoplasm","Mammary Neoplasm, Human","Mammary Neoplasms, Human","Human Mammary Carcinomas","Cancer of the Breast","Neoplasm, Breast","Human Mammary Neoplasms","Cancer of Breast","Mammary Carcinomas, Human","Human Mammary Neoplasm","Mammary Carcinoma, Human","Neoplasms, Human Mammary","Neoplasms, Breast","Breast Tumors","Breast Cancer","Carcinomas, Human Mammary","Carcinoma, Human Mammary","Tumor, Breast","Neoplasm, Human Mammary","Breast Neoplasms [Disease/Finding]","Breast Tumor","Human Mammary Carcinoma","Tumors, Breast","Cancer, Breast"]
+                "string":["Human Mammary Carcinoma","Neoplasms, Human Mammary","Breast Neoplasms [Disease/Finding]","Breast Neoplasm","Human Mammary Carcinomas","Human Mammary Neoplasm","Mammary Carcinomas, Human","Cancer of Breast","Mammary Neoplasms, Human","Breast Tumors","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Cancer, Breast","Neoplasm, Human Mammary","Mammary Neoplasm, Human","Human Mammary Neoplasms","Tumors, Breast","Neoplasms, Breast","Breast Cancer","Breast Tumor","Neoplasm, Breast","Carcinoma, Human Mammary","Tumor, Breast","Cancer of the Breast"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -565,7 +565,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/NDFRT/C1402",
                   "preferredName":"Breast Neoplasms",
                   "synonyms":{
-                    "string":["Breast Neoplasm","Mammary Neoplasm, Human","Mammary Neoplasms, Human","Human Mammary Carcinomas","Cancer of the Breast","Neoplasm, Breast","Human Mammary Neoplasms","Cancer of Breast","Mammary Carcinomas, Human","Human Mammary Neoplasm","Mammary Carcinoma, Human","Neoplasms, Human Mammary","Neoplasms, Breast","Breast Tumors","Breast Cancer","Carcinomas, Human Mammary","Carcinoma, Human Mammary","Tumor, Breast","Neoplasm, Human Mammary","Breast Neoplasms [Disease/Finding]","Breast Tumor","Human Mammary Carcinoma","Tumors, Breast","Cancer, Breast"]
+                    "string":["Human Mammary Carcinoma","Neoplasms, Human Mammary","Breast Neoplasms [Disease/Finding]","Breast Neoplasm","Human Mammary Carcinomas","Human Mammary Neoplasm","Mammary Carcinomas, Human","Cancer of Breast","Mammary Neoplasms, Human","Breast Tumors","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Cancer, Breast","Neoplasm, Human Mammary","Mammary Neoplasm, Human","Human Mammary Neoplasms","Tumors, Breast","Neoplasms, Breast","Breast Cancer","Breast Tumor","Neoplasm, Breast","Carcinoma, Human Mammary","Tumor, Breast","Cancer of the Breast"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -646,7 +646,7 @@
               "fullId":"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Carcinoma",
               "preferredName":"Breast Carcinoma",
               "synonyms":{
-                "string":["Carcinoma of the Breast","Cancer of the Breast","Carcinoma of Breast","Cancer of Breast","BREAST CANCER","Mammary Carcinoma","CANCER, BREAST"]
+                "string":["Carcinoma of Breast","Cancer of Breast","CANCER, BREAST","Cancer of the Breast","BREAST CANCER","Carcinoma of the Breast","Mammary Carcinoma"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -675,7 +675,7 @@
                   "fullId":"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Carcinoma",
                   "preferredName":"Breast Carcinoma",
                   "synonyms":{
-                    "string":["Carcinoma of the Breast","Cancer of the Breast","Carcinoma of Breast","Cancer of Breast","BREAST CANCER","Mammary Carcinoma","CANCER, BREAST"]
+                    "string":["Carcinoma of Breast","Cancer of Breast","CANCER, BREAST","Cancer of the Breast","BREAST CANCER","Carcinoma of the Breast","Mammary Carcinoma"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -701,7 +701,7 @@
               "fullId":"http://purl.bioontology.org/ontology/MSH/D001943",
               "preferredName":"Breast Neoplasms",
               "synonyms":{
-                "string":["Neoplasms, Breast","Mammary Carcinoma, Human","Neoplasm, Breast","Breast Neoplasm","Mammary Neoplasm, Human","Human Mammary Neoplasm","Tumors, Breast","Breast Tumors","BREAST NEOPL","Neoplasms, Human Mammary","Cancer, Breast","Cancer of Breast","Carcinoma, Human Mammary","Cancer of the Breast","Mammary Neoplasms, Human","Mammary Carcinomas, Human","NEOPL BREAST","Human Mammary Carcinomas","Human Mammary Neoplasms","Breast Cancer","Neoplasm, Human Mammary","Tumor, Breast","Human Mammary Carcinoma","Carcinomas, Human Mammary","Breast Tumor"]
+                "string":["Tumors, Breast","Human Mammary Neoplasm","Carcinoma, Human Mammary","Cancer, Breast","Mammary Carcinomas, Human","BREAST NEOPL","NEOPL BREAST","Human Mammary Neoplasms","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Breast Neoplasm","Mammary Neoplasm, Human","Breast Cancer","Cancer of Breast","Cancer of the Breast","Neoplasm, Breast","Breast Tumors","Breast Tumor","Mammary Neoplasms, Human","Neoplasms, Breast","Tumor, Breast","Human Mammary Carcinomas","Neoplasms, Human Mammary","Human Mammary Carcinoma","Neoplasm, Human Mammary"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -730,7 +730,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/MSH/D001943",
                   "preferredName":"Breast Neoplasms",
                   "synonyms":{
-                    "string":["Neoplasms, Breast","Mammary Carcinoma, Human","Neoplasm, Breast","Breast Neoplasm","Mammary Neoplasm, Human","Human Mammary Neoplasm","Tumors, Breast","Breast Tumors","BREAST NEOPL","Neoplasms, Human Mammary","Cancer, Breast","Cancer of Breast","Carcinoma, Human Mammary","Cancer of the Breast","Mammary Neoplasms, Human","Mammary Carcinomas, Human","NEOPL BREAST","Human Mammary Carcinomas","Human Mammary Neoplasms","Breast Cancer","Neoplasm, Human Mammary","Tumor, Breast","Human Mammary Carcinoma","Carcinomas, Human Mammary","Breast Tumor"]
+                    "string":["Tumors, Breast","Human Mammary Neoplasm","Carcinoma, Human Mammary","Cancer, Breast","Mammary Carcinomas, Human","BREAST NEOPL","NEOPL BREAST","Human Mammary Neoplasms","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Breast Neoplasm","Mammary Neoplasm, Human","Breast Cancer","Cancer of Breast","Cancer of the Breast","Neoplasm, Breast","Breast Tumors","Breast Tumor","Mammary Neoplasms, Human","Neoplasms, Breast","Tumor, Breast","Human Mammary Carcinomas","Neoplasms, Human Mammary","Human Mammary Carcinoma","Neoplasm, Human Mammary"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -756,7 +756,7 @@
               "fullId":"http://www.ebi.ac.uk/efo/EFO_0000305",
               "preferredName":"breast carcinoma",
               "synonyms":{
-                "string":["Tumor, Breast","Neoplasms, Human Mammary","Neoplasm, Human Mammary","NEOPL BREAST","Mammary Carcinoma, Human","Cancer of the Breast","Breast Tumor","Breast Neoplasms","Carcinomas, Human Mammary","Neoplasm, Breast","Mammary Neoplasm, Human","Neoplasms, Breast","Mammary carcinoma","Human Mammary Neoplasms","Cancer, Breast","Carcinoma of breast NOS","CA - Carcinoma of breast","Breast Neoplasm","Carcinoma of the Breast","Human Mammary Carcinoma","Tumors, Breast","Breast Cancer","BREAST NEOPL","Mammary Neoplasms, Human","Human Mammary Carcinomas","Human Mammary Neoplasm","Cancer of Breast","Mammary Carcinomas, Human","Carcinoma of breast NOS (disorder)","carcinoma OF breast","Carcinoma, Human Mammary","Carcinoma of breast (disorder)","Breast Tumors"]
+                "string":["Carcinomas, Human Mammary","Human Mammary Neoplasms","Mammary carcinoma","Breast Cancer","Carcinoma of the Breast","NEOPL BREAST","CA - Carcinoma of breast","Breast Tumors","Breast Neoplasms","Human Mammary Carcinomas","Neoplasm, Human Mammary","Cancer of Breast","Tumors, Breast","Mammary Carcinoma, Human","Breast Tumor","carcinoma OF breast","Mammary Neoplasm, Human","BREAST NEOPL","Human Mammary Neoplasm","Carcinoma of breast NOS (disorder)","Mammary Neoplasms, Human","Cancer, Breast","Neoplasms, Human Mammary","Carcinoma, Human Mammary","Neoplasms, Breast","Cancer of the Breast","Carcinoma of breast NOS","Carcinoma of breast (disorder)","Mammary Carcinomas, Human","Breast Neoplasm","Tumor, Breast","Human Mammary Carcinoma","Neoplasm, Breast"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -785,7 +785,7 @@
                   "fullId":"http://www.ebi.ac.uk/efo/EFO_0000305",
                   "preferredName":"breast carcinoma",
                   "synonyms":{
-                    "string":["Tumor, Breast","Neoplasms, Human Mammary","Neoplasm, Human Mammary","NEOPL BREAST","Mammary Carcinoma, Human","Cancer of the Breast","Breast Tumor","Breast Neoplasms","Carcinomas, Human Mammary","Neoplasm, Breast","Mammary Neoplasm, Human","Neoplasms, Breast","Mammary carcinoma","Human Mammary Neoplasms","Cancer, Breast","Carcinoma of breast NOS","CA - Carcinoma of breast","Breast Neoplasm","Carcinoma of the Breast","Human Mammary Carcinoma","Tumors, Breast","Breast Cancer","BREAST NEOPL","Mammary Neoplasms, Human","Human Mammary Carcinomas","Human Mammary Neoplasm","Cancer of Breast","Mammary Carcinomas, Human","Carcinoma of breast NOS (disorder)","carcinoma OF breast","Carcinoma, Human Mammary","Carcinoma of breast (disorder)","Breast Tumors"]
+                    "string":["Carcinomas, Human Mammary","Human Mammary Neoplasms","Mammary carcinoma","Breast Cancer","Carcinoma of the Breast","NEOPL BREAST","CA - Carcinoma of breast","Breast Tumors","Breast Neoplasms","Human Mammary Carcinomas","Neoplasm, Human Mammary","Cancer of Breast","Tumors, Breast","Mammary Carcinoma, Human","Breast Tumor","carcinoma OF breast","Mammary Neoplasm, Human","BREAST NEOPL","Human Mammary Neoplasm","Carcinoma of breast NOS (disorder)","Mammary Neoplasms, Human","Cancer, Breast","Neoplasms, Human Mammary","Carcinoma, Human Mammary","Neoplasms, Breast","Cancer of the Breast","Carcinoma of breast NOS","Carcinoma of breast (disorder)","Mammary Carcinomas, Human","Breast Neoplasm","Tumor, Breast","Human Mammary Carcinoma","Neoplasm, Breast"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -811,7 +811,7 @@
               "fullId":"http://www.ebi.ac.uk/efo/EFO_0003869",
               "preferredName":"breast neoplasm",
               "synonyms":{
-                "string":["Breast Tumors","Cancer, Breast","Mammary Carcinoma, Human","Human Mammary Carcinomas","Human Mammary Carcinoma","BREAST NEOPL","Tumor, Breast","Human Mammary Neoplasm","Cancer of the Breast","Breast Cancer","Mammary Neoplasm, Human","NEOPL BREAST","Cancer of Breast","Neoplasm, Breast","Breast Neoplasms","Carcinoma, Human Mammary","Neoplasms, Human Mammary","Neoplasm, Human Mammary","Mammary Neoplasms, Human","Neoplasms, Breast","Mammary Carcinomas, Human","Carcinomas, Human Mammary","Human Mammary Neoplasms","Breast Tumor","Tumors, Breast"]
+                "string":["Human Mammary Carcinoma","Breast Cancer","Tumor, Breast","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Tumors, Breast","Neoplasm, Human Mammary","Breast Tumor","Human Mammary Neoplasm","Mammary Neoplasms, Human","Neoplasm, Breast","Breast Neoplasms","Human Mammary Neoplasms","Breast Tumors","Cancer of the Breast","BREAST NEOPL","Carcinoma, Human Mammary","NEOPL BREAST","Neoplasms, Human Mammary","Neoplasms, Breast","Cancer of Breast","Mammary Neoplasm, Human","Cancer, Breast","Human Mammary Carcinomas","Mammary Carcinomas, Human"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -840,7 +840,7 @@
                   "fullId":"http://www.ebi.ac.uk/efo/EFO_0003869",
                   "preferredName":"breast neoplasm",
                   "synonyms":{
-                    "string":["Breast Tumors","Cancer, Breast","Mammary Carcinoma, Human","Human Mammary Carcinomas","Human Mammary Carcinoma","BREAST NEOPL","Tumor, Breast","Human Mammary Neoplasm","Cancer of the Breast","Breast Cancer","Mammary Neoplasm, Human","NEOPL BREAST","Cancer of Breast","Neoplasm, Breast","Breast Neoplasms","Carcinoma, Human Mammary","Neoplasms, Human Mammary","Neoplasm, Human Mammary","Mammary Neoplasms, Human","Neoplasms, Breast","Mammary Carcinomas, Human","Carcinomas, Human Mammary","Human Mammary Neoplasms","Breast Tumor","Tumors, Breast"]
+                    "string":["Human Mammary Carcinoma","Breast Cancer","Tumor, Breast","Mammary Carcinoma, Human","Carcinomas, Human Mammary","Tumors, Breast","Neoplasm, Human Mammary","Breast Tumor","Human Mammary Neoplasm","Mammary Neoplasms, Human","Neoplasm, Breast","Breast Neoplasms","Human Mammary Neoplasms","Breast Tumors","Cancer of the Breast","BREAST NEOPL","Carcinoma, Human Mammary","NEOPL BREAST","Neoplasms, Human Mammary","Neoplasms, Breast","Cancer of Breast","Mammary Neoplasm, Human","Cancer, Breast","Human Mammary Carcinomas","Mammary Carcinomas, Human"]
                   },
                   "definitions":"",
                   "semanticTypes":{
@@ -866,7 +866,7 @@
               "fullId":"http://purl.bioontology.org/ontology/SNOMEDCT/254837009",
               "preferredName":"Malignant tumor of breast",
               "synonyms":{
-                "string":["Malignant tumor of breast (disorder)","Malignant tumour of breast","Breast cancer","CA - Breast cancer"]
+                "string":["Malignant tumour of breast","CA - Breast cancer","Breast cancer","Malignant tumor of breast (disorder)"]
               },
               "definitions":"",
               "semanticTypes":{
@@ -895,7 +895,7 @@
                   "fullId":"http://purl.bioontology.org/ontology/SNOMEDCT/254837009",
                   "preferredName":"Malignant tumor of breast",
                   "synonyms":{
-                    "string":["Malignant tumor of breast (disorder)","Malignant tumour of breast","Breast cancer","CA - Breast cancer"]
+                    "string":["Malignant tumour of breast","CA - Breast cancer","Breast cancer","Malignant tumor of breast (disorder)"]
                   },
                   "definitions":"",
                   "semanticTypes":{

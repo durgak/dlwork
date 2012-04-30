@@ -1,0 +1,17 @@
+{
+  "dog1":{
+    "name":"Rover",
+    "type":"Doberman",
+    "age": "10"
+  }
+  "dog2":{
+    "name":"Comet",
+    "type":"Golden Retriever",
+    "age": "13"
+  }
+  "dog3":{
+    "name":"Pippin",
+    "type":"Chihuahua Mix",
+    "age": "3"
+  }
+}
