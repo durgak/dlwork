@@ -49,7 +49,7 @@ object Application extends Controller {
     }
     
     //main method, handles callback, query, and queries requests
-    def reconcile: JsonObject = {
+    def reconcile: String = {
       var jsonstr = ""
       
       if (params.get("query")!=null){
@@ -68,7 +68,9 @@ object Application extends Controller {
       var jsonp = jsonstr
       if (callback != null){
         val inFile = "metadata.json"
-        return jsonToJsonObject(inFile)
+        val j = jsonToJsonObject(inFile).toString
+        return callback+"("+j+")"
+        //return jsonToJsonObject(inFile)
         //return testObj()
         //jsonp = callback + "("+jsonstr+")"
       }
@@ -76,18 +78,18 @@ object Application extends Controller {
       val queries = params.get("queries")
       if (queries != null){
         val inFile = "queries.json"
-        return jsonToJsonObject(inFile)
+        return jsonToJsonObject(inFile).toString
         //return queryObj()
       }
     
       val query = params.get("query")
       if(query == "") {
-        return new JsonObject()
+        return new JsonObject().toString
         //flash += ("error" -> "Oops, please enter a query!")
         //flash.get("error")
       } else {
         val inFile = "query.json"
-        return jsonToJsonObject(inFile)
+        return jsonToJsonObject(inFile).toString
         //return queryObj()
         //return runQuery(query)
       }   

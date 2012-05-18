@@ -67,7 +67,7 @@ object Application extends Controller {
       val callback = params.get("callback")
       var jsonp = jsonstr
       if (callback != null){
-        val infile = "metadata.json"
+        val inFile = "metadata.json"
         return jsonToJsonObject(inFile)
         //return testObj()
         //jsonp = callback + "("+jsonstr+")"
@@ -75,7 +75,7 @@ object Application extends Controller {
       
       val queries = params.get("queries")
       if (queries != null){
-        val infile = "queries.json"
+        val inFile = "queries.json"
         return jsonToJsonObject(inFile)
         //return queryObj()
       }
@@ -86,7 +86,7 @@ object Application extends Controller {
         //flash += ("error" -> "Oops, please enter a query!")
         //flash.get("error")
       } else {
-        val infile = "query.json"
+        val inFile = "query.json"
         return jsonToJsonObject(inFile)
         //return queryObj()
         //return runQuery(query)

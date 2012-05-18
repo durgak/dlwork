@@ -1,0 +1,26 @@
+jsonp({
+  "name": "Freebase Reconciliation Service",
+  "identifierSpace": "http://rdf.freebase.com/ns/type.object.mid",
+  "schemaSpace": "http://rdf.freebase.com/ns/type.object.id",
+  "view": {
+    "url": "http://www.freebase.com/view{{id}}"
+  },
+  "preview": {
+    "url": "http://www.freebase.com/widget/topic{{id}}?mode=content",
+    "width": 430,
+    "height": 300
+  },
+  "suggest": {
+    "property": "http://standard-reconcile.freebaseapps.com/suggest_property"
+  },
+  "defaultTypes": [
+    {
+      "id": "/people/person",
+      "name": "Person"
+    },
+    {
+      "id": "/location/location",
+      "name": "Location"
+    }
+  ]
+})
