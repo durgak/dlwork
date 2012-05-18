@@ -1,0 +1,244 @@
+{
+  "q2": {
+    "result": [
+      {
+        "id": "/m/0k8z",
+        "name": "Apple Inc.",
+        "type": [
+          {
+            "id": "/business/business_operation",
+            "name": "Business Operation"
+          },
+          {
+            "id": "/organization/organization",
+            "name": "Organization"
+          },
+          {
+            "id": "/computer/computer_manufacturer_brand",
+            "name": "Computer Manufacturer/Brand"
+          },
+          {
+            "id": "/internet/website_category",
+            "name": "Website Category"
+          },
+          {
+            "id": "/cvg/cvg_publisher",
+            "name": "Video Game Publisher"
+          },
+          {
+            "id": "/computer/software_developer",
+            "name": "Software Developer"
+          },
+          {
+            "id": "/computer/operating_system_developer",
+            "name": "Operating System Developer"
+          },
+          {
+            "id": "/cvg/cvg_developer",
+            "name": "Video Game Developer"
+          },
+          {
+            "id": "/computer/programming_language_developer",
+            "name": "Programming Language Developer"
+          },
+          {
+            "id": "/computer/programming_language_designer",
+            "name": "Programming Language Designer"
+          },
+          {
+            "id": "/law/inventor",
+            "name": "Inventor"
+          },
+          {
+            "id": "/venture_capital/venture_funded_company",
+            "name": "Venture Funded Company"
+          },
+          {
+            "id": "/book/author",
+            "name": "Author"
+          },
+          {
+            "id": "/base/typefaces/typeface_foundry",
+            "name": "Typeface Foundry"
+          },
+          {
+            "id": "/computer/protocol_provider",
+            "name": "Protocol Provider"
+          },
+          {
+            "id": "/book/publishing_company",
+            "name": "Publisher"
+          },
+          {
+            "id": "/business/consumer_company",
+            "name": "Consumer company"
+          },
+          {
+            "id": "/business/issuer",
+            "name": "Issuer"
+          },
+          {
+            "id": "/award/ranked_item",
+            "name": "Ranked item"
+          }
+        ],
+        "score": 79.43041229248047,
+        "match": false
+      },
+      {
+        "id": "/m/019n_t",
+        "name": "Apple Records",
+        "type": [
+          {
+            "id": "/music/record_label",
+            "name": "Record label"
+          },
+          {
+            "id": "/business/business_operation",
+            "name": "Business Operation"
+          },
+          {
+            "id": "/organization/organization",
+            "name": "Organization"
+          }
+        ],
+        "score": 77.03357696533203,
+        "match": false
+      },
+      {
+        "id": "/m/02_7z_",
+        "name": "Apple Corps",
+        "type": [
+          {
+            "id": "/business/business_operation",
+            "name": "Business Operation"
+          },
+          {
+            "id": "/organization/organization",
+            "name": "Organization"
+          }
+        ],
+        "score": 66.0819320678711,
+        "match": false
+      }
+    ]
+  },
+  "q1": {
+    "result": [
+      {
+        "id": "/m/0gh3kb",
+        "name": "Alfred Ford",
+        "type": [
+          {
+            "id": "/people/person",
+            "name": "Person"
+          }
+        ],
+        "score": 90.190613,
+        "match": true
+      },
+      {
+        "id": "/m/02vyw",
+        "name": "Francis Ford Coppola",
+        "type": [
+          {
+            "id": "/film/producer",
+            "name": "Film producer"
+          },
+          {
+            "id": "/film/director",
+            "name": "Film director"
+          },
+          {
+            "id": "/film/writer",
+            "name": "Film writer"
+          },
+          {
+            "id": "/tv/tv_actor",
+            "name": "TV Actor"
+          },
+          {
+            "id": "/film/actor",
+            "name": "Film actor"
+          },
+          {
+            "id": "/film/editor",
+            "name": "Film editor"
+          },
+          {
+            "id": "/music/lyricist",
+            "name": "Lyricist"
+          },
+          {
+            "id": "/tv/tv_director",
+            "name": "TV Director"
+          },
+          {
+            "id": "/tv/tv_writer",
+            "name": "TV Writer"
+          },
+          {
+            "id": "/music/composer",
+            "name": "Composer"
+          },
+          {
+            "id": "/tv/tv_producer",
+            "name": "TV Producer"
+          },
+          {
+            "id": "/base/saturdaynightlive/snl_host",
+            "name": "SNL host"
+          },
+          {
+            "id": "/tv/tv_personality",
+            "name": "TV Personality"
+          },
+          {
+            "id": "/music/artist",
+            "name": "Musical Artist"
+          },
+          {
+            "id": "/music/songwriter",
+            "name": "Songwriter"
+          },
+          {
+            "id": "/award/award_nominee",
+            "name": "Award Nominee"
+          },
+          {
+            "id": "/award/award_winner",
+            "name": "Award Winner"
+          },
+          {
+            "id": "/people/person",
+            "name": "Person"
+          },
+          {
+            "id": "/film/person_or_entity_appearing_in_film",
+            "name": "Person or entity appearing in film"
+          }
+        ],
+        "score": 87.96349,
+        "match": false
+      },
+      {
+        "id": "/m/03gxm",
+        "name": "Henry Ford",
+        "type": [
+          {
+            "id": "/people/person",
+            "name": "Person"
+          },
+          {
+            "id": "/film/person_or_entity_appearing_in_film",
+            "name": "Person or entity appearing in film"
+          }
+        ],
+        "score": 78.199935,
+        "match": false
+      }
+    ]
+  },
+  "duration": 1709,
+  "labs": false
+}

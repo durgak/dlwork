@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <success>
   <accessedResource>/obs/annotator</accessedResource>
-  <accessDate>2012-04-30 13:21:11.786 PDT</accessDate>
+  <accessDate>2012-05-02 14:33:33.19 PDT</accessDate>
   <data>
     <annotatorResultBean>
-      <resultID>OBA_RESULT_8917</resultID>
+      <resultID>OBA_RESULT_18ce</resultID>
       <statistics>
+        <statisticsBean>
+          <contextName>MAPPING</contextName>
+          <nbAnnotation>0</nbAnnotation>
+        </statisticsBean>
         <statisticsBean>
           <contextName>CLOSURE</contextName>
           <nbAnnotation>0</nbAnnotation>
@@ -13,10 +17,6 @@
         <statisticsBean>
           <contextName>MGREP</contextName>
           <nbAnnotation>16</nbAnnotation>
-        </statisticsBean>
-        <statisticsBean>
-          <contextName>MAPPING</contextName>
-          <nbAnnotation>0</nbAnnotation>
         </statisticsBean>
       </statistics>
       <parameters>
@@ -51,8 +51,8 @@
             <fullId>http://purl.bioontology.org/ontology/MEDLINEPLUS/T3</fullId>
             <preferredName>Breast Cancer</preferredName>
             <synonyms>
-              <string>Paget&apos;s Disease of Breast</string>
               <string>Breast carcinoma</string>
+              <string>Paget&apos;s Disease of Breast</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -80,8 +80,8 @@
                 <fullId>http://purl.bioontology.org/ontology/MEDLINEPLUS/T3</fullId>
                 <preferredName>Breast Cancer</preferredName>
                 <synonyms>
-                  <string>Paget&apos;s Disease of Breast</string>
                   <string>Breast carcinoma</string>
+                  <string>Paget&apos;s Disease of Breast</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -108,14 +108,14 @@
             <fullId>http://purl.org/obo/owl/DOID#DOID_1612</fullId>
             <preferredName>breast cancer</preferredName>
             <synonyms>
-              <string>primary breast cancer</string>
-              <string>malignant neoplasm of breast</string>
-              <string>malignant tumor of the breast</string>
-              <string>mammary cancer</string>
               <string>mammary tumor</string>
+              <string>primary breast cancer</string>
+              <string>mammary cancer</string>
               <string>breast tumor</string>
+              <string>malignant tumor of the breast</string>
               <string>Ca breast - NOS</string>
               <string>breast cancer</string>
+              <string>malignant neoplasm of breast</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -143,14 +143,14 @@
                 <fullId>http://purl.org/obo/owl/DOID#DOID_1612</fullId>
                 <preferredName>breast cancer</preferredName>
                 <synonyms>
-                  <string>primary breast cancer</string>
-                  <string>malignant neoplasm of breast</string>
-                  <string>malignant tumor of the breast</string>
-                  <string>mammary cancer</string>
                   <string>mammary tumor</string>
+                  <string>primary breast cancer</string>
+                  <string>mammary cancer</string>
                   <string>breast tumor</string>
+                  <string>malignant tumor of the breast</string>
                   <string>Ca breast - NOS</string>
                   <string>breast cancer</string>
+                  <string>malignant neoplasm of breast</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -177,8 +177,8 @@
             <fullId>http://purl.bioontology.org/ontology/OMIM/114480</fullId>
             <preferredName>BREAST CANCER</preferredName>
             <synonyms>
-              <string>BREAST CANCER, FAMILIAL MALE</string>
               <string>BREAST CANCER, FAMILIAL</string>
+              <string>BREAST CANCER, FAMILIAL MALE</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -206,8 +206,8 @@
                 <fullId>http://purl.bioontology.org/ontology/OMIM/114480</fullId>
                 <preferredName>BREAST CANCER</preferredName>
                 <synonyms>
-                  <string>BREAST CANCER, FAMILIAL MALE</string>
                   <string>BREAST CANCER, FAMILIAL</string>
+                  <string>BREAST CANCER, FAMILIAL MALE</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -503,10 +503,10 @@
             <fullId>http://purl.bioontology.org/ontology/CSP/2016-0671</fullId>
             <preferredName>breast neoplasm</preferredName>
             <synonyms>
-              <string>breast cancer</string>
-              <string>ductal carcinoma in situ</string>
               <string>mammary tumor</string>
+              <string>ductal carcinoma in situ</string>
               <string>DCIS</string>
+              <string>breast cancer</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -534,10 +534,10 @@
                 <fullId>http://purl.bioontology.org/ontology/CSP/2016-0671</fullId>
                 <preferredName>breast neoplasm</preferredName>
                 <synonyms>
-                  <string>breast cancer</string>
-                  <string>ductal carcinoma in situ</string>
                   <string>mammary tumor</string>
+                  <string>ductal carcinoma in situ</string>
                   <string>DCIS</string>
+                  <string>breast cancer</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -564,29 +564,29 @@
             <fullId>http://purl.bioontology.org/ontology/NDFRT/C1402</fullId>
             <preferredName>Breast Neoplasms</preferredName>
             <synonyms>
-              <string>Human Mammary Carcinoma</string>
-              <string>Neoplasms, Human Mammary</string>
-              <string>Breast Neoplasms [Disease/Finding]</string>
-              <string>Breast Neoplasm</string>
-              <string>Human Mammary Carcinomas</string>
-              <string>Human Mammary Neoplasm</string>
-              <string>Mammary Carcinomas, Human</string>
-              <string>Cancer of Breast</string>
-              <string>Mammary Neoplasms, Human</string>
-              <string>Breast Tumors</string>
-              <string>Mammary Carcinoma, Human</string>
-              <string>Carcinomas, Human Mammary</string>
-              <string>Cancer, Breast</string>
-              <string>Neoplasm, Human Mammary</string>
-              <string>Mammary Neoplasm, Human</string>
-              <string>Human Mammary Neoplasms</string>
-              <string>Tumors, Breast</string>
               <string>Neoplasms, Breast</string>
-              <string>Breast Cancer</string>
-              <string>Breast Tumor</string>
-              <string>Neoplasm, Breast</string>
-              <string>Carcinoma, Human Mammary</string>
+              <string>Cancer of Breast</string>
+              <string>Human Mammary Neoplasms</string>
               <string>Tumor, Breast</string>
+              <string>Neoplasm, Breast</string>
+              <string>Human Mammary Neoplasm</string>
+              <string>Breast Cancer</string>
+              <string>Breast Neoplasms [Disease/Finding]</string>
+              <string>Human Mammary Carcinomas</string>
+              <string>Mammary Neoplasms, Human</string>
+              <string>Mammary Carcinomas, Human</string>
+              <string>Breast Tumors</string>
+              <string>Breast Tumor</string>
+              <string>Neoplasm, Human Mammary</string>
+              <string>Cancer, Breast</string>
+              <string>Tumors, Breast</string>
+              <string>Human Mammary Carcinoma</string>
+              <string>Breast Neoplasm</string>
+              <string>Mammary Carcinoma, Human</string>
+              <string>Mammary Neoplasm, Human</string>
+              <string>Neoplasms, Human Mammary</string>
+              <string>Carcinoma, Human Mammary</string>
+              <string>Carcinomas, Human Mammary</string>
               <string>Cancer of the Breast</string>
             </synonyms>
             <definitions/>
@@ -615,29 +615,29 @@
                 <fullId>http://purl.bioontology.org/ontology/NDFRT/C1402</fullId>
                 <preferredName>Breast Neoplasms</preferredName>
                 <synonyms>
-                  <string>Human Mammary Carcinoma</string>
-                  <string>Neoplasms, Human Mammary</string>
-                  <string>Breast Neoplasms [Disease/Finding]</string>
-                  <string>Breast Neoplasm</string>
-                  <string>Human Mammary Carcinomas</string>
-                  <string>Human Mammary Neoplasm</string>
-                  <string>Mammary Carcinomas, Human</string>
-                  <string>Cancer of Breast</string>
-                  <string>Mammary Neoplasms, Human</string>
-                  <string>Breast Tumors</string>
-                  <string>Mammary Carcinoma, Human</string>
-                  <string>Carcinomas, Human Mammary</string>
-                  <string>Cancer, Breast</string>
-                  <string>Neoplasm, Human Mammary</string>
-                  <string>Mammary Neoplasm, Human</string>
-                  <string>Human Mammary Neoplasms</string>
-                  <string>Tumors, Breast</string>
                   <string>Neoplasms, Breast</string>
-                  <string>Breast Cancer</string>
-                  <string>Breast Tumor</string>
-                  <string>Neoplasm, Breast</string>
-                  <string>Carcinoma, Human Mammary</string>
+                  <string>Cancer of Breast</string>
+                  <string>Human Mammary Neoplasms</string>
                   <string>Tumor, Breast</string>
+                  <string>Neoplasm, Breast</string>
+                  <string>Human Mammary Neoplasm</string>
+                  <string>Breast Cancer</string>
+                  <string>Breast Neoplasms [Disease/Finding]</string>
+                  <string>Human Mammary Carcinomas</string>
+                  <string>Mammary Neoplasms, Human</string>
+                  <string>Mammary Carcinomas, Human</string>
+                  <string>Breast Tumors</string>
+                  <string>Breast Tumor</string>
+                  <string>Neoplasm, Human Mammary</string>
+                  <string>Cancer, Breast</string>
+                  <string>Tumors, Breast</string>
+                  <string>Human Mammary Carcinoma</string>
+                  <string>Breast Neoplasm</string>
+                  <string>Mammary Carcinoma, Human</string>
+                  <string>Mammary Neoplasm, Human</string>
+                  <string>Neoplasms, Human Mammary</string>
+                  <string>Carcinoma, Human Mammary</string>
+                  <string>Carcinomas, Human Mammary</string>
                   <string>Cancer of the Breast</string>
                 </synonyms>
                 <definitions/>
@@ -720,13 +720,13 @@
             <fullId>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Carcinoma</fullId>
             <preferredName>Breast Carcinoma</preferredName>
             <synonyms>
-              <string>Carcinoma of Breast</string>
-              <string>Cancer of Breast</string>
-              <string>CANCER, BREAST</string>
-              <string>Cancer of the Breast</string>
-              <string>BREAST CANCER</string>
-              <string>Carcinoma of the Breast</string>
               <string>Mammary Carcinoma</string>
+              <string>Carcinoma of the Breast</string>
+              <string>Cancer of Breast</string>
+              <string>Carcinoma of Breast</string>
+              <string>Cancer of the Breast</string>
+              <string>CANCER, BREAST</string>
+              <string>BREAST CANCER</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -754,13 +754,13 @@
                 <fullId>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Carcinoma</fullId>
                 <preferredName>Breast Carcinoma</preferredName>
                 <synonyms>
-                  <string>Carcinoma of Breast</string>
-                  <string>Cancer of Breast</string>
-                  <string>CANCER, BREAST</string>
-                  <string>Cancer of the Breast</string>
-                  <string>BREAST CANCER</string>
-                  <string>Carcinoma of the Breast</string>
                   <string>Mammary Carcinoma</string>
+                  <string>Carcinoma of the Breast</string>
+                  <string>Cancer of Breast</string>
+                  <string>Carcinoma of Breast</string>
+                  <string>Cancer of the Breast</string>
+                  <string>CANCER, BREAST</string>
+                  <string>BREAST CANCER</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -787,31 +787,31 @@
             <fullId>http://purl.bioontology.org/ontology/MSH/D001943</fullId>
             <preferredName>Breast Neoplasms</preferredName>
             <synonyms>
-              <string>Tumors, Breast</string>
-              <string>Human Mammary Neoplasm</string>
-              <string>Carcinoma, Human Mammary</string>
-              <string>Cancer, Breast</string>
-              <string>Mammary Carcinomas, Human</string>
-              <string>BREAST NEOPL</string>
-              <string>NEOPL BREAST</string>
-              <string>Human Mammary Neoplasms</string>
-              <string>Mammary Carcinoma, Human</string>
-              <string>Carcinomas, Human Mammary</string>
-              <string>Breast Neoplasm</string>
-              <string>Mammary Neoplasm, Human</string>
-              <string>Breast Cancer</string>
-              <string>Cancer of Breast</string>
-              <string>Cancer of the Breast</string>
-              <string>Neoplasm, Breast</string>
-              <string>Breast Tumors</string>
-              <string>Breast Tumor</string>
               <string>Mammary Neoplasms, Human</string>
-              <string>Neoplasms, Breast</string>
+              <string>NEOPL BREAST</string>
               <string>Tumor, Breast</string>
-              <string>Human Mammary Carcinomas</string>
-              <string>Neoplasms, Human Mammary</string>
-              <string>Human Mammary Carcinoma</string>
+              <string>Tumors, Breast</string>
+              <string>BREAST NEOPL</string>
               <string>Neoplasm, Human Mammary</string>
+              <string>Mammary Carcinoma, Human</string>
+              <string>Human Mammary Carcinomas</string>
+              <string>Human Mammary Neoplasms</string>
+              <string>Human Mammary Neoplasm</string>
+              <string>Neoplasm, Breast</string>
+              <string>Breast Cancer</string>
+              <string>Neoplasms, Breast</string>
+              <string>Mammary Neoplasm, Human</string>
+              <string>Breast Neoplasm</string>
+              <string>Cancer, Breast</string>
+              <string>Carcinoma, Human Mammary</string>
+              <string>Breast Tumor</string>
+              <string>Breast Tumors</string>
+              <string>Mammary Carcinomas, Human</string>
+              <string>Cancer of Breast</string>
+              <string>Carcinomas, Human Mammary</string>
+              <string>Human Mammary Carcinoma</string>
+              <string>Cancer of the Breast</string>
+              <string>Neoplasms, Human Mammary</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -839,31 +839,31 @@
                 <fullId>http://purl.bioontology.org/ontology/MSH/D001943</fullId>
                 <preferredName>Breast Neoplasms</preferredName>
                 <synonyms>
-                  <string>Tumors, Breast</string>
-                  <string>Human Mammary Neoplasm</string>
-                  <string>Carcinoma, Human Mammary</string>
-                  <string>Cancer, Breast</string>
-                  <string>Mammary Carcinomas, Human</string>
-                  <string>BREAST NEOPL</string>
-                  <string>NEOPL BREAST</string>
-                  <string>Human Mammary Neoplasms</string>
-                  <string>Mammary Carcinoma, Human</string>
-                  <string>Carcinomas, Human Mammary</string>
-                  <string>Breast Neoplasm</string>
-                  <string>Mammary Neoplasm, Human</string>
-                  <string>Breast Cancer</string>
-                  <string>Cancer of Breast</string>
-                  <string>Cancer of the Breast</string>
-                  <string>Neoplasm, Breast</string>
-                  <string>Breast Tumors</string>
-                  <string>Breast Tumor</string>
                   <string>Mammary Neoplasms, Human</string>
-                  <string>Neoplasms, Breast</string>
+                  <string>NEOPL BREAST</string>
                   <string>Tumor, Breast</string>
-                  <string>Human Mammary Carcinomas</string>
-                  <string>Neoplasms, Human Mammary</string>
-                  <string>Human Mammary Carcinoma</string>
+                  <string>Tumors, Breast</string>
+                  <string>BREAST NEOPL</string>
                   <string>Neoplasm, Human Mammary</string>
+                  <string>Mammary Carcinoma, Human</string>
+                  <string>Human Mammary Carcinomas</string>
+                  <string>Human Mammary Neoplasms</string>
+                  <string>Human Mammary Neoplasm</string>
+                  <string>Neoplasm, Breast</string>
+                  <string>Breast Cancer</string>
+                  <string>Neoplasms, Breast</string>
+                  <string>Mammary Neoplasm, Human</string>
+                  <string>Breast Neoplasm</string>
+                  <string>Cancer, Breast</string>
+                  <string>Carcinoma, Human Mammary</string>
+                  <string>Breast Tumor</string>
+                  <string>Breast Tumors</string>
+                  <string>Mammary Carcinomas, Human</string>
+                  <string>Cancer of Breast</string>
+                  <string>Carcinomas, Human Mammary</string>
+                  <string>Human Mammary Carcinoma</string>
+                  <string>Cancer of the Breast</string>
+                  <string>Neoplasms, Human Mammary</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -891,38 +891,38 @@
             <preferredName>breast carcinoma</preferredName>
             <synonyms>
               <string>Carcinomas, Human Mammary</string>
-              <string>Human Mammary Neoplasms</string>
-              <string>Mammary carcinoma</string>
-              <string>Breast Cancer</string>
-              <string>Carcinoma of the Breast</string>
-              <string>NEOPL BREAST</string>
-              <string>CA - Carcinoma of breast</string>
-              <string>Breast Tumors</string>
-              <string>Breast Neoplasms</string>
               <string>Human Mammary Carcinomas</string>
-              <string>Neoplasm, Human Mammary</string>
-              <string>Cancer of Breast</string>
-              <string>Tumors, Breast</string>
-              <string>Mammary Carcinoma, Human</string>
-              <string>Breast Tumor</string>
-              <string>carcinoma OF breast</string>
-              <string>Mammary Neoplasm, Human</string>
-              <string>BREAST NEOPL</string>
-              <string>Human Mammary Neoplasm</string>
-              <string>Carcinoma of breast NOS (disorder)</string>
-              <string>Mammary Neoplasms, Human</string>
-              <string>Cancer, Breast</string>
-              <string>Neoplasms, Human Mammary</string>
-              <string>Carcinoma, Human Mammary</string>
+              <string>Carcinoma of the Breast</string>
               <string>Neoplasms, Breast</string>
-              <string>Cancer of the Breast</string>
+              <string>Neoplasms, Human Mammary</string>
+              <string>Breast Tumors</string>
+              <string>Mammary Neoplasms, Human</string>
               <string>Carcinoma of breast NOS</string>
-              <string>Carcinoma of breast (disorder)</string>
               <string>Mammary Carcinomas, Human</string>
-              <string>Breast Neoplasm</string>
+              <string>Cancer of Breast</string>
+              <string>Carcinoma of breast (disorder)</string>
+              <string>Mammary Neoplasm, Human</string>
+              <string>Breast Tumor</string>
+              <string>Breast Cancer</string>
+              <string>Breast Neoplasms</string>
+              <string>Tumors, Breast</string>
+              <string>Neoplasm, Human Mammary</string>
               <string>Tumor, Breast</string>
-              <string>Human Mammary Carcinoma</string>
+              <string>Mammary carcinoma</string>
+              <string>Cancer of the Breast</string>
+              <string>Mammary Carcinoma, Human</string>
               <string>Neoplasm, Breast</string>
+              <string>Cancer, Breast</string>
+              <string>Human Mammary Neoplasm</string>
+              <string>Breast Neoplasm</string>
+              <string>NEOPL BREAST</string>
+              <string>Carcinoma, Human Mammary</string>
+              <string>carcinoma OF breast</string>
+              <string>CA - Carcinoma of breast</string>
+              <string>BREAST NEOPL</string>
+              <string>Human Mammary Carcinoma</string>
+              <string>Carcinoma of breast NOS (disorder)</string>
+              <string>Human Mammary Neoplasms</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -951,38 +951,38 @@
                 <preferredName>breast carcinoma</preferredName>
                 <synonyms>
                   <string>Carcinomas, Human Mammary</string>
-                  <string>Human Mammary Neoplasms</string>
-                  <string>Mammary carcinoma</string>
-                  <string>Breast Cancer</string>
-                  <string>Carcinoma of the Breast</string>
-                  <string>NEOPL BREAST</string>
-                  <string>CA - Carcinoma of breast</string>
-                  <string>Breast Tumors</string>
-                  <string>Breast Neoplasms</string>
                   <string>Human Mammary Carcinomas</string>
-                  <string>Neoplasm, Human Mammary</string>
-                  <string>Cancer of Breast</string>
-                  <string>Tumors, Breast</string>
-                  <string>Mammary Carcinoma, Human</string>
-                  <string>Breast Tumor</string>
-                  <string>carcinoma OF breast</string>
-                  <string>Mammary Neoplasm, Human</string>
-                  <string>BREAST NEOPL</string>
-                  <string>Human Mammary Neoplasm</string>
-                  <string>Carcinoma of breast NOS (disorder)</string>
-                  <string>Mammary Neoplasms, Human</string>
-                  <string>Cancer, Breast</string>
-                  <string>Neoplasms, Human Mammary</string>
-                  <string>Carcinoma, Human Mammary</string>
+                  <string>Carcinoma of the Breast</string>
                   <string>Neoplasms, Breast</string>
-                  <string>Cancer of the Breast</string>
+                  <string>Neoplasms, Human Mammary</string>
+                  <string>Breast Tumors</string>
+                  <string>Mammary Neoplasms, Human</string>
                   <string>Carcinoma of breast NOS</string>
-                  <string>Carcinoma of breast (disorder)</string>
                   <string>Mammary Carcinomas, Human</string>
-                  <string>Breast Neoplasm</string>
+                  <string>Cancer of Breast</string>
+                  <string>Carcinoma of breast (disorder)</string>
+                  <string>Mammary Neoplasm, Human</string>
+                  <string>Breast Tumor</string>
+                  <string>Breast Cancer</string>
+                  <string>Breast Neoplasms</string>
+                  <string>Tumors, Breast</string>
+                  <string>Neoplasm, Human Mammary</string>
                   <string>Tumor, Breast</string>
-                  <string>Human Mammary Carcinoma</string>
+                  <string>Mammary carcinoma</string>
+                  <string>Cancer of the Breast</string>
+                  <string>Mammary Carcinoma, Human</string>
                   <string>Neoplasm, Breast</string>
+                  <string>Cancer, Breast</string>
+                  <string>Human Mammary Neoplasm</string>
+                  <string>Breast Neoplasm</string>
+                  <string>NEOPL BREAST</string>
+                  <string>Carcinoma, Human Mammary</string>
+                  <string>carcinoma OF breast</string>
+                  <string>CA - Carcinoma of breast</string>
+                  <string>BREAST NEOPL</string>
+                  <string>Human Mammary Carcinoma</string>
+                  <string>Carcinoma of breast NOS (disorder)</string>
+                  <string>Human Mammary Neoplasms</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -1009,31 +1009,31 @@
             <fullId>http://www.ebi.ac.uk/efo/EFO_0003869</fullId>
             <preferredName>breast neoplasm</preferredName>
             <synonyms>
-              <string>Human Mammary Carcinoma</string>
-              <string>Breast Cancer</string>
-              <string>Tumor, Breast</string>
-              <string>Mammary Carcinoma, Human</string>
               <string>Carcinomas, Human Mammary</string>
-              <string>Tumors, Breast</string>
-              <string>Neoplasm, Human Mammary</string>
+              <string>Cancer, Breast</string>
               <string>Breast Tumor</string>
-              <string>Human Mammary Neoplasm</string>
-              <string>Mammary Neoplasms, Human</string>
-              <string>Neoplasm, Breast</string>
+              <string>Neoplasms, Breast</string>
+              <string>Breast Cancer</string>
+              <string>Human Mammary Carcinomas</string>
+              <string>NEOPL BREAST</string>
+              <string>Cancer of Breast</string>
+              <string>Neoplasm, Human Mammary</string>
+              <string>Mammary Carcinomas, Human</string>
+              <string>Neoplasms, Human Mammary</string>
+              <string>Mammary Carcinoma, Human</string>
+              <string>Tumor, Breast</string>
               <string>Breast Neoplasms</string>
+              <string>Neoplasm, Breast</string>
               <string>Human Mammary Neoplasms</string>
-              <string>Breast Tumors</string>
-              <string>Cancer of the Breast</string>
               <string>BREAST NEOPL</string>
               <string>Carcinoma, Human Mammary</string>
-              <string>NEOPL BREAST</string>
-              <string>Neoplasms, Human Mammary</string>
-              <string>Neoplasms, Breast</string>
-              <string>Cancer of Breast</string>
+              <string>Tumors, Breast</string>
+              <string>Human Mammary Neoplasm</string>
               <string>Mammary Neoplasm, Human</string>
-              <string>Cancer, Breast</string>
-              <string>Human Mammary Carcinomas</string>
-              <string>Mammary Carcinomas, Human</string>
+              <string>Breast Tumors</string>
+              <string>Mammary Neoplasms, Human</string>
+              <string>Cancer of the Breast</string>
+              <string>Human Mammary Carcinoma</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -1061,31 +1061,31 @@
                 <fullId>http://www.ebi.ac.uk/efo/EFO_0003869</fullId>
                 <preferredName>breast neoplasm</preferredName>
                 <synonyms>
-                  <string>Human Mammary Carcinoma</string>
-                  <string>Breast Cancer</string>
-                  <string>Tumor, Breast</string>
-                  <string>Mammary Carcinoma, Human</string>
                   <string>Carcinomas, Human Mammary</string>
-                  <string>Tumors, Breast</string>
-                  <string>Neoplasm, Human Mammary</string>
+                  <string>Cancer, Breast</string>
                   <string>Breast Tumor</string>
-                  <string>Human Mammary Neoplasm</string>
-                  <string>Mammary Neoplasms, Human</string>
-                  <string>Neoplasm, Breast</string>
+                  <string>Neoplasms, Breast</string>
+                  <string>Breast Cancer</string>
+                  <string>Human Mammary Carcinomas</string>
+                  <string>NEOPL BREAST</string>
+                  <string>Cancer of Breast</string>
+                  <string>Neoplasm, Human Mammary</string>
+                  <string>Mammary Carcinomas, Human</string>
+                  <string>Neoplasms, Human Mammary</string>
+                  <string>Mammary Carcinoma, Human</string>
+                  <string>Tumor, Breast</string>
                   <string>Breast Neoplasms</string>
+                  <string>Neoplasm, Breast</string>
                   <string>Human Mammary Neoplasms</string>
-                  <string>Breast Tumors</string>
-                  <string>Cancer of the Breast</string>
                   <string>BREAST NEOPL</string>
                   <string>Carcinoma, Human Mammary</string>
-                  <string>NEOPL BREAST</string>
-                  <string>Neoplasms, Human Mammary</string>
-                  <string>Neoplasms, Breast</string>
-                  <string>Cancer of Breast</string>
+                  <string>Tumors, Breast</string>
+                  <string>Human Mammary Neoplasm</string>
                   <string>Mammary Neoplasm, Human</string>
-                  <string>Cancer, Breast</string>
-                  <string>Human Mammary Carcinomas</string>
-                  <string>Mammary Carcinomas, Human</string>
+                  <string>Breast Tumors</string>
+                  <string>Mammary Neoplasms, Human</string>
+                  <string>Cancer of the Breast</string>
+                  <string>Human Mammary Carcinoma</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>
@@ -1112,10 +1112,10 @@
             <fullId>http://purl.bioontology.org/ontology/SNOMEDCT/254837009</fullId>
             <preferredName>Malignant tumor of breast</preferredName>
             <synonyms>
-              <string>Malignant tumour of breast</string>
-              <string>CA - Breast cancer</string>
-              <string>Breast cancer</string>
               <string>Malignant tumor of breast (disorder)</string>
+              <string>Malignant tumour of breast</string>
+              <string>Breast cancer</string>
+              <string>CA - Breast cancer</string>
             </synonyms>
             <definitions/>
             <semanticTypes>
@@ -1143,10 +1143,10 @@
                 <fullId>http://purl.bioontology.org/ontology/SNOMEDCT/254837009</fullId>
                 <preferredName>Malignant tumor of breast</preferredName>
                 <synonyms>
-                  <string>Malignant tumour of breast</string>
-                  <string>CA - Breast cancer</string>
-                  <string>Breast cancer</string>
                   <string>Malignant tumor of breast (disorder)</string>
+                  <string>Malignant tumour of breast</string>
+                  <string>Breast cancer</string>
+                  <string>CA - Breast cancer</string>
                 </synonyms>
                 <definitions/>
                 <semanticTypes>

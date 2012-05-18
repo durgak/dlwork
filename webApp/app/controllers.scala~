@@ -34,17 +34,11 @@ import scala.util.parsing.json.JSONObject
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
+import com.google.gson.JsonArray
+import com.google.gson.JsonPrimitive
 
-class MetaData {
-    private var name = ""
-    //private var defaultTypes = Library[]
-    
-    def metaData(cname: String) = {
-        name = cname
-        //defaultTypes = new Library[1]
-        //defaultTypes[0] = new Library()
-    }
-}
+import javax.servlet.http.HttpServletResponse
+
 
 object Application extends Controller {
     
@@ -54,61 +48,56 @@ object Application extends Controller {
         html.index("Your Scala application is ready!")
     }
     
-    //converts an xml file to a json file, returning output filename
-    def xmlToJson(inFile: String):String = {
-      val data = xml.XML.loadFile(inFile)
-      val str = Printer.pretty(render(net.liftweb.json.Xml.toJson(data)))  
-      val outFile = inFile.replace(".xml", ".json")       
-      var out_file = new java.io.FileOutputStream(outFile)
-      var out_stream = new java.io.PrintStream(out_file)
-             
-      out_stream.print(str)
-      out_stream.close
-      return outFile
-    }
-    
-    //converts a json file to a json object
-    def jsonToJsonObject(inFile: String) = {
-      val lines = scala.io.Source.fromFile(inFile).mkString
-      val json = parse(lines)
-      
-      val parser = new JsonParser()
-      val obj = parser.parse(lines)
-      obj.getAsJsonObject()
-      //return JSONObject(json.asInstanceOf[JObject].values.map(p => Tuple2(p._1.toString, p._2) ))
-      //return str.toString()
-    }
-    
-    def metadata(): JsonObject = {
-      val jsonObj = new JsonObject()
-      jsonObj.addProperty("name", "NCBO Annotator Query")
-      jsonObj.addProperty("identifierSpace", "http://localhost:9000/application/reconcile")
-      jsonObj.addProperty("schemaSpace", "http://localhost:9000/application/reconcile")
-      return jsonObj
-    }
-    
-    def genMetadata(cname: String) = {
-        var name = cname
-        //val defaultTypes = new Library[1]
-        //defaultTypes[0]= new Library()
-    }
-    
+    //main method, handles callback, query, and queries requests
     def reconcile: JsonObject = {
+      var jsonstr = ""
+      
+      if (params.get("query")!=null){
+        val query = params.get("query")
+        jsonstr = runQuery(query).toString
+      }
+      
+      /*val resp = new MyCustomResponse()
+      resp.setCharacterEncoding("UTF-8")
+      resp.setContentType("application/json")
+      resp.setStatus(200)*/
+      
+      //potentially do something with metadata here
+
       val callback = params.get("callback")
-      if (callback == "jsonp"){
-        //val metadata = new MetaData()
-        //metadata.metaData("dffsdf")
-        return metadata()
+      var jsonp = jsonstr
+      if (callback != null){
+        val infile = "metadata.json"
+        return jsonToJsonObject(inFile)
+        //return testObj()
+        //jsonp = callback + "("+jsonstr+")"
+      }
+      
+      val queries = params.get("queries")
+      if (queries != null){
+        val infile = "queries.json"
+        return jsonToJsonObject(inFile)
+        //return queryObj()
       }
     
       val query = params.get("query")
       if(query == "") {
-        val a = 0
         return new JsonObject()
         //flash += ("error" -> "Oops, please enter a query!")
         //flash.get("error")
       } else {
-        
+        val infile = "query.json"
+        return jsonToJsonObject(inFile)
+        //return queryObj()
+        //return runQuery(query)
+      }   
+    }  
+    
+    //main single query method
+    def runQuery(query: String): JsonObject = {
+    
+        return queryObj()
+      
         var annotatorUrl = "http://rest.bioontology.org/obs/annotator"
  
         val client = new DefaultHttpClient()
@@ -156,15 +145,89 @@ object Application extends Controller {
             //response.setCharacterEncoding("UTF-8"); 
             //response.setContentType("application/json"); 
             response.setStatusCode(200); 
-            PrintWriter out= response.getWriter(); 
-            out.print(j); 
-            //return j
+            //PrintWriter out= response.getWriter(); 
+            //out.print(j); 
+            return j
             
           } catch {
             case e: Exception => e.printStackTrace
           }
         }
         return new JsonObject()
-      }   
+    }  
+    
+    //converts an xml file to a json file, returning output filename
+    def xmlToJson(inFile: String):String = {
+      val data = xml.XML.loadFile(inFile)
+      val str = Printer.pretty(render(net.liftweb.json.Xml.toJson(data)))  
+      val outFile = inFile.replace(".xml", ".json")       
+      var out_file = new java.io.FileOutputStream(outFile)
+      var out_stream = new java.io.PrintStream(out_file)
+             
+      out_stream.print(str)
+      out_stream.close
+      return outFile
     }
+    
+    //converts a json file to a json object
+    def jsonToJsonObject(inFile: String) = {
+      val lines = scala.io.Source.fromFile(inFile).mkString
+      val json = parse(lines)
+      
+      val parser = new JsonParser()
+      val obj = parser.parse(lines)
+      obj.getAsJsonObject()
+      //return JSONObject(json.asInstanceOf[JObject].values.map(p => Tuple2(p._1.toString, p._2) ))
+      //return str.toString()
+    }
+    
+    def metadata(): JsonObject = {
+      val jsonObj = new JsonObject()
+      jsonObj.addProperty("name", "NCBO Annotator Query")
+      jsonObj.addProperty("identifierSpace", "http://localhost:9000/application/reconcile")
+      jsonObj.addProperty("schemaSpace", "http://localhost:9000/application/reconcile")
+      return jsonObj
+    }
+    
+    //generates a test metadata json object of this form http://standard-reconcile.freebaseapps.com/reconcile
+    def testObj(): JsonObject = {
+      val jsonObj = new JsonObject()
+      val subArray = new JsonArray()
+      jsonObj.addProperty("name", "Controlled Vocabulary Reconciliation Service")
+      jsonObj.addProperty("identifierSpace", "http://rdf.freebase.com/ns/type.object.mid")
+      jsonObj.addProperty("schemaSpace", "http://rdf.freebase.com/ns/type.object.id")
+      val subJsonObj1 = new JsonObject()
+      subJsonObj1.addProperty("id", "TissueName")
+      subJsonObj1.addProperty("name", "TissueName")
+      subArray.add(subJsonObj1)
+      val subJsonObj2 = new JsonObject()
+      subJsonObj2.addProperty("id", "colorname")
+      subJsonObj2.addProperty("name", "colorname")
+      subArray.add(subJsonObj2)
+      val subJsonObj3 = new JsonObject()
+      subJsonObj3.addProperty("id", "Tissue")
+      subJsonObj3.addProperty("name", "Tissue")
+      subArray.add(subJsonObj3)
+      val subJsonObj4 = new JsonObject()
+      subJsonObj4.addProperty("id", "colors")
+      subJsonObj4.addProperty("name", "colors")
+      subArray.add(subJsonObj4)
+      jsonObj.add("defaultTypes", subArray)
+      return jsonObj
+    }
+    
+    //generates a test query json object of this form http://standard-reconcile.freebaseapps.com/reconcile
+    def queryObj(): JsonObject = {
+      val jsonObj = new JsonObject()
+      val subArray = new JsonArray()
+      jsonObj.addProperty("id", "colors/Yellow")
+      jsonObj.addProperty("name", "Yellow")
+      val name = new JsonPrimitive("colors") 
+      subArray.add(name)
+      jsonObj.add("type", subArray)
+      jsonObj.addProperty("score", "100.0")
+      jsonObj.addProperty("match", true)
+      return jsonObj
+    }
+
 }

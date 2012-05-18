@@ -1,0 +1,126 @@
+{
+  "result": [
+    {
+      "id": "/m/02zs4",
+      "name": "Ford Motor Company",
+      "type": [
+        {
+          "id": "/business/business_operation",
+          "name": "Business Operation"
+        },
+        {
+          "id": "/organization/organization",
+          "name": "Organization"
+        },
+        {
+          "id": "/film/production_company",
+          "name": "Production company"
+        },
+        {
+          "id": "/law/inventor",
+          "name": "Inventor"
+        },
+        {
+          "id": "/award/award_winner",
+          "name": "Award Winner"
+        },
+        {
+          "id": "/award/ranked_item",
+          "name": "Ranked item"
+        },
+        {
+          "id": "/business/issuer",
+          "name": "Issuer"
+        },
+        {
+          "id": "/business/customer",
+          "name": "Customer"
+        }
+      ],
+      "score": 83.15294647216797,
+      "match": false
+    },
+    {
+      "id": "/m/0qk4n",
+      "name": "Ford Mustang",
+      "type": [
+        {
+          "id": "/automotive/model",
+          "name": "Automobile Model"
+        }
+      ],
+      "score": 77.43196868896484,
+      "match": false
+    },
+    {
+      "id": "/m/0c_md_",
+      "name": "Gerald Ford",
+      "type": [
+        {
+          "id": "/government/us_president",
+          "name": "US President"
+        },
+        {
+          "id": "/government/us_vice_president",
+          "name": "US Vice President"
+        },
+        {
+          "id": "/government/politician",
+          "name": "Politician"
+        },
+        {
+          "id": "/tv/tv_actor",
+          "name": "TV Actor"
+        },
+        {
+          "id": "/american_football/football_player",
+          "name": "American football player"
+        },
+        {
+          "id": "/film/actor",
+          "name": "Film actor"
+        },
+        {
+          "id": "/military/military_commander",
+          "name": "Military Commander"
+        },
+        {
+          "id": "/base/activism/activist",
+          "name": "Activist"
+        },
+        {
+          "id": "/base/crime/lawyer",
+          "name": "Lawyer"
+        },
+        {
+          "id": "/tv/tv_personality",
+          "name": "TV Personality"
+        },
+        {
+          "id": "/government/u_s_congressperson",
+          "name": "U.S. Congressperson"
+        },
+        {
+          "id": "/award/award_winner",
+          "name": "Award Winner"
+        },
+        {
+          "id": "/sports/pro_athlete",
+          "name": "Athlete"
+        },
+        {
+          "id": "/people/person",
+          "name": "Person"
+        },
+        {
+          "id": "/film/person_or_entity_appearing_in_film",
+          "name": "Person or entity appearing in film"
+        }
+      ],
+      "score": 71.50862884521484,
+      "match": false
+    }
+  ],
+  "duration": 17,
+  "labs": false
+}
